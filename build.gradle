@@ -18,7 +18,11 @@ dependencies {
 }
 
 jar {
+    destinationDirectory.set(file("out"))
+
     from configurations.runtimeClasspath.collect(project.&zipTree)
+    duplicatesStrategy DuplicatesStrategy.EXCLUDE
+
     manifest {
         attributes("Main-Class": "ru.dargen.obfuscator.Obfuscator")
     }
