@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.dargen'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.ow2.asm:asm:9.1'
+    implementation 'org.ow2.asm:asm-tree:9.1'
+
+    annotationProcessor compileOnly('org.projectlombok:lombok:1.18.30')
+}
+
+jar {
+    from configurations.runtimeClasspath.collect(project.&zipTree)
+    manifest {
+        attributes("Main-Class": "ru.dargen.obfuscator.Obfuscator")
+    }
+}
