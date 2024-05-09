@@ -2276,10 +2276,10 @@
     }
   },
   "ru/cristalix/client/schematica/world/schematic/SchematicUtil": {
-    "actual": "CSbpfRH",
+    "actual": "GNFqVqL",
     "fields": {},
     "methods": {
-      "readTagCompoundFromStream(Ljava/io/DataInputStream;)Lnet/minecraft/nbt/NBTTagCompound;": "getProperties"
+      "readTagCompoundFromStream(Ljava/io/DataInputStream;)Lnet/minecraft/nbt/NBTTagCompound;": "gWjrZHr"
     }
   },
   "dev/xdark/clientapi/impl/block/BlockGlassBuilder": {
@@ -3970,10 +3970,10 @@
     }
   },
   "dev/xdark/clientapi/reroute/AuthlibReroute": {
-    "actual": "GNFqVqL",
+    "actual": "CSbpfRH",
     "fields": {},
     "methods": {
-      "getProperties(Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/properties/PropertyMap;": "gWjrZHr"
+      "getProperties(Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/properties/PropertyMap;": "getProperties"
     }
   },
   "dev/xdark/clientapi/loader/reroute_populators/ScreenInit": {

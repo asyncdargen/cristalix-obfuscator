@@ -16385,7 +16385,7 @@
     }
   },
   "net/minecraft/network/play/client/CPacketPlayerTryUseItem": {
-    "actual": "hvVZpTz",
+    "actual": "ifLorDS",
     "fields": {
       "hand": "BCmcrbn"
     },
@@ -36497,14 +36497,14 @@
     }
   },
   "net/minecraft/network/login/server/SPacketLoginSuccess": {
-    "actual": "ORTXYpw",
+    "actual": "DJlMTgm",
     "fields": {
       "profile": "gWjrZHr"
     },
     "methods": {
-      "read(Lio/netty/buffer/ByteBuf;)V": "gWjrZHr",
-      "processPacket(Lnet/minecraft/network/login/INetHandlerLoginClient;)V": "read",
-      "getProfile()Lcom/mojang/authlib/GameProfile;": "gWjrZHr",
+      "read(Lio/netty/buffer/ByteBuf;)V": "read",
+      "processPacket(Lnet/minecraft/network/login/INetHandlerLoginClient;)V": "gWjrZHr",
+      "getProfile()Lcom/mojang/authlib/GameProfile;": "kPRmjRd",
       "processPacket(Lnet/minecraft/network/INetHandler;)V": "gWjrZHr"
     }
   },
@@ -37554,14 +37554,14 @@
     }
   },
   "net/minecraft/network/play/server/SPacketSpawnPosition": {
-    "actual": "DJlMTgm",
+    "actual": "ORTXYpw",
     "fields": {
       "spawnBlockPos": "gWjrZHr"
     },
     "methods": {
-      "read(Lio/netty/buffer/ByteBuf;)V": "read",
-      "processPacket(Lnet/minecraft/network/play/INetHandlerPlayClient;)V": "gWjrZHr",
-      "getSpawnPos()Lnet/minecraft/util/math/BlockPos;": "kPRmjRd",
+      "read(Lio/netty/buffer/ByteBuf;)V": "gWjrZHr",
+      "processPacket(Lnet/minecraft/network/play/INetHandlerPlayClient;)V": "read",
+      "getSpawnPos()Lnet/minecraft/util/math/BlockPos;": "gWjrZHr",
       "processPacket(Lnet/minecraft/network/INetHandler;)V": "gWjrZHr"
     }
   },
@@ -41630,9 +41630,9 @@
     }
   },
   "net/minecraft/network/play/client/CPacketSpectate": {
-    "actual": "ifLorDS",
+    "actual": "CZfCWZF",
     "fields": {
-      "id": "BCmcrbn"
+      "id": "WjCdIbC"
     },
     "methods": {
       "write(Lio/netty/buffer/ByteBuf;)V": "write"
@@ -42225,9 +42225,9 @@
     }
   },
   "net/minecraft/network/login/client/CPacketLoginStart": {
-    "actual": "CZfCWZF",
+    "actual": "hvVZpTz",
     "fields": {
-      "profile": "WjCdIbC"
+      "profile": "BCmcrbn"
     },
     "methods": {
       "write(Lio/netty/buffer/ByteBuf;)V": "write"
