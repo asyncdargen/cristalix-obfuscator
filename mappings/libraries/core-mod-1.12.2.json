@@ -7393,5 +7393,27 @@
     "actual": "gBZDGCL",
     "fields": {},
     "methods": {}
+  },
+  "dev/xdark/clientapi/impl/network/PacketWrapper": {
+    "actual": "PEliwaK",
+    "fields": {
+      "delegate": "gWjrZHr"
+    },
+    "methods": {
+      "read(Lio/netty/buffer/ByteBuf;)V": "read",
+      "write(Lio/netty/buffer/ByteBuf;)V": "write",
+      "processPacket(Lnet/minecraft/network/play/INetHandlerPlayClient;)V": "gWjrZHr",
+      "executor(Lnet/minecraft/network/play/INetHandlerPlayClient;)Ljava/util/concurrent/Executor;": "gWjrZHr",
+      "getActualType()Ljava/lang/Class;": "gWjrZHr",
+      "executor(Lnet/minecraft/network/INetHandler;)Ljava/util/concurrent/Executor;": "gWjrZHr",
+      "processPacket(Lnet/minecraft/network/INetHandler;)V": "gWjrZHr"
+    }
+  },
+  "dev/xdark/clientapi/proxy/ModMainProxy": {
+    "actual": "uyikWgD",
+    "fields": {},
+    "methods": {
+      "load(Ldev/xdark/clientapi/ClientApi;)V": "fire"
+    }
   }
 }

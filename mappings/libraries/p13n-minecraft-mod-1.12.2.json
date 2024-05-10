@@ -7184,5 +7184,199 @@
       "values()[Lpw/lach/p13n/network/ModelKind;": "values",
       "valueOf(Ljava/lang/String;)Lpw/lach/p13n/network/ModelKind;": "valueOf"
     }
+  },
+  "pw/lach/math/EasyTransform": {
+    "actual": "wdcBSnk",
+    "fields": {
+      "translate": "SJseNMa",
+      "rotate": "xZcGKMl"
+    },
+    "methods": {
+      "clone()Lpw/lach/math/EasyTransform;": "wuMPZig",
+      "generateCode()Ljava/lang/String;": "clRoAwN"
+    }
+  },
+  "pw/lach/math/vector/Vector3f": {
+    "actual": "zLHWwHH",
+    "fields": {
+      "x": "xiOHUEZ",
+      "y": "wuMPZig",
+      "z": "vmAlWfp",
+      "temp": "LzYOZuP"
+    },
+    "methods": {
+      "isNull()Z": "BRRocRf",
+      "setX(F)V": "setX",
+      "setY(F)V": "setY",
+      "setZ(F)V": "setZ",
+      "getX()F": "getX",
+      "getY()F": "getY",
+      "getZ()F": "getZ",
+      "setXYZ(Lpw/lach/math/vector/Vector3f;)Lpw/lach/math/vector/Vector3f;": "gWjrZHr",
+      "setXYZ(FFF)Lpw/lach/math/vector/Vector3f;": "gWjrZHr",
+      "add(Lpw/lach/math/vector/Vector3f;)Lpw/lach/math/vector/Vector3f;": "kPRmjRd",
+      "mul(F)Lpw/lach/math/vector/Vector3f;": "gWjrZHr",
+      "add0(FFF)Lpw/lach/math/vector/Vector3f;": "kPRmjRd",
+      "add(FFF)Lpw/lach/math/vector/ThreeFields3f;": "kPRmjRd",
+      "rotate(Lpw/lach/math/vector/Angle3f;)Lpw/lach/math/vector/Vector3f;": "gWjrZHr",
+      "length()F": "wWVPvdZ",
+      "clone()Lpw/lach/math/vector/Vector3f;": "gWjrZHr",
+      "glApplyTranslate()V": "RQNMefi",
+      "glApplyScale()V": "PfWcKOQ",
+      "generateCode()Ljava/lang/String;": "ZidqfbY",
+      "getEditor(Ljava/util/function/Consumer;)Ljavax/swing/JComponent;": "gWjrZHr",
+      "applyTransformTo(Lpw/lach/math/vector/Vector3f;Lpw/lach/math/vector/Angle3f;)V": "gWjrZHr",
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "canEqual(Ljava/lang/Object;)Z": "gWjrZHr",
+      "hashCode()I": "hashCode",
+      "lambda$getEditor$0(Ljavax/swing/JSpinner;Ljavax/swing/JSpinner;Ljavax/swing/JSpinner;Ljavax/swing/JTextArea;Ljava/util/function/Consumer;Ljavax/swing/event/ChangeEvent;)V": "gWjrZHr"
+    }
+  },
+  "pw/lach/p13n/model/model/Model": {
+    "actual": "bNIiWmA",
+    "fields": {
+      "categoryId": "OwWrtAF",
+      "uuid": "FHURYzE",
+      "availableInGui": "OVRJFJK",
+      "limit": "lsfOfqA",
+      "price": "uBeALfB",
+      "discountPrice": "iahtaOZ",
+      "contributor": "IllpRWU",
+      "name": "gWjrZHr",
+      "lazyRenderer": "gWjrZHr",
+      "modelType": "gWjrZHr",
+      "conflictGroups": "scWGGoF",
+      "supportOptions": "rQnNuzT",
+      "createdTime": "tWXlMam",
+      "cameraSetting": "gWjrZHr",
+      "modelLocationRotation": "gWjrZHr",
+      "disableYAnimation": "HVCegFf",
+      "yAnimation": "bBIHIxp",
+      "lore": "DswtZYd",
+      "isLimited": "KNZmrbo",
+      "hideOn": "EhSNmpn",
+      "components": "AMLIPnh",
+      "cloth": "YaYZgWp",
+      "hidePartBody": "nNTPpMJ",
+      "expire": "BCmcrbn",
+      "mirror": "HhRcyDq",
+      "priority": "xZcGKMl",
+      "new0": "SJseNMa",
+      "supportMeta": "HpTjZVd"
+    },
+    "methods": {
+      "hasMeta(Ljava/lang/String;)Z": "ClushVo",
+      "hasAnyMeta()Z": "IUJNBOg",
+      "getName()Ljava/lang/String;": "getName",
+      "getLore()Ljava/util/List;": "clRoAwN",
+      "isLimited()Z": "ClushVo",
+      "hasMirror()Z": "fknxksK",
+      "getId()Ljava/util/UUID;": "getId",
+      "getType()Lpw/lach/p13n/manager/render/gui/main/type/P13nType;": "gWjrZHr",
+      "hasCameraSettings()Z": "pSiqzSf",
+      "getOptions(Lpw/lach/p13n/model/EnumModelOption;)Ljava/util/Map;": "gWjrZHr",
+      "hasOption(Lpw/lach/p13n/model/EnumModelOption;)Z": "gWjrZHr",
+      "hasOptions()Z": "McUFsfr",
+      "canBuy()Z": "fEUIdNn",
+      "render(Lpw/lach/p13n/render/data/RenderPlace;F)V": "gWjrZHr",
+      "compareTo(Lpw/lach/p13n/model/model/Model;)I": "gWjrZHr",
+      "isAvailableInGui()Z": "PZpfLhk",
+      "getLimit()I": "RdsVLgC",
+      "getPrice()I": "VkgMeck",
+      "getDiscountPrice()I": "LtxAdJQ",
+      "getContributor()Ljava/lang/String;": "wuMPZig",
+      "getModelType()Lpw/lach/p13n/model/model/ModelType;": "gWjrZHr",
+      "isDisableYAnimation()Z": "TsHljlv",
+      "isYAnimation()Z": "PbYWnqM",
+      "getHideOn()Ljava/util/Set;": "ptEwGeo",
+      "getComponents()Ljava/util/Set;": "eNyELuG",
+      "getCloth()Ljava/util/List;": "ZRkihXc",
+      "getHidePartBody()Ljava/util/Set;": "rOpQWhg",
+      "getExpire()Ljava/time/Instant;": "BCmcrbn",
+      "getMirror()Ljava/util/List;": "JrzlipW",
+      "getPriority()Ljava/time/Instant;": "xZcGKMl",
+      "getNew0()Ljava/time/Instant;": "SJseNMa",
+      "getSupportMeta()Ljava/util/Map;": "EOAkdeh"
+    }
+  },
+  "pw/lach/math/vector/Angle3f": {
+    "actual": "ukrnpmP",
+    "fields": {
+      "yaw": "ndHfrmL",
+      "pitch": "HVivheQ",
+      "roll": "BCNDQAL"
+    },
+    "methods": {
+      "setX(F)V": "setX",
+      "setY(F)V": "setY",
+      "setZ(F)V": "setZ",
+      "getX()F": "getX",
+      "getY()F": "getY",
+      "getZ()F": "getZ",
+      "isNull()Z": "BRRocRf",
+      "setYawPitchRoll(Lpw/lach/math/vector/Angle3f;)V": "gWjrZHr",
+      "setYawPitchRoll(FFF)V": "BrGopGP",
+      "add(Lpw/lach/math/vector/Angle3f;)V": "kPRmjRd",
+      "add(FFF)V": "XkTqykZ",
+      "add0(FFF)Lpw/lach/math/vector/ThreeFields3f;": "gWjrZHr",
+      "clone()Lpw/lach/math/vector/Angle3f;": "gWjrZHr",
+      "glApplyRotation()V": "eKKaPPR",
+      "generateCode()Ljava/lang/String;": "ZidqfbY",
+      "getEditor(Ljava/util/function/Consumer;)Ljavax/swing/JComponent;": "gWjrZHr",
+      "applyTransformTo(Lpw/lach/math/vector/Vector3f;Lpw/lach/math/vector/Angle3f;)V": "gWjrZHr",
+      "getYaw()F": "bIaORKD",
+      "getPitch()F": "getPitch",
+      "getRoll()F": "sLfACSd",
+      "setYaw(F)V": "setYaw",
+      "setPitch(F)V": "setPitch",
+      "setRoll(F)V": "wOfoeCE",
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "canEqual(Ljava/lang/Object;)Z": "gWjrZHr",
+      "hashCode()I": "hashCode",
+      "toString()Ljava/lang/String;": "toString",
+      "lambda$getEditor$0(Ljavax/swing/JSpinner;Ljavax/swing/JSpinner;Ljavax/swing/JSpinner;Ljavax/swing/JTextArea;Ljava/util/function/Consumer;Ljavax/swing/event/ChangeEvent;)V": "gWjrZHr"
+    }
+  },
+  "pw/lach/p13n/model/emotion/Emotion": {
+    "actual": "HJoGTCN",
+    "fields": {
+      "categoryId": "gWjrZHr",
+      "uuid": "gWjrZHr",
+      "contributor": "kPRmjRd"
+    },
+    "methods": {
+      "getType()Lpw/lach/p13n/manager/render/gui/main/type/P13nType;": "gWjrZHr",
+      "getId()Ljava/util/UUID;": "ZidqfbY"
+    }
+  },
+  "net/diamondden/graffiti/prototype/GraffitiPrototype": {
+    "actual": "UjBDRfc",
+    "fields": {
+      "id": "UjBIMNN",
+      "name": "gWjrZHr",
+      "contributor": "IllpRWU",
+      "lore": "DswtZYd",
+      "price": "lsfOfqA",
+      "discountPrice": "uBeALfB",
+      "limited": "OVRJFJK",
+      "expire": "BCmcrbn",
+      "limit": "iahtaOZ"
+    },
+    "methods": {
+      "compareTo(Lnet/diamondden/graffiti/prototype/GraffitiPrototype;)I": "gWjrZHr",
+      "getContributor()Ljava/lang/String;": "gWjrZHr",
+      "getLore()Ljava/util/List;": "getId",
+      "getPrice()I": "RdsVLgC",
+      "getDiscountPrice()I": "VkgMeck",
+      "getType()Lpw/lach/p13n/manager/render/gui/main/type/P13nType;": "getName",
+      "getId()Ljava/util/UUID;": "wuMPZig",
+      "getName()Ljava/lang/String;": "clRoAwN",
+      "isAvailableInGui()Z": "PZpfLhk",
+      "isLimited()Z": "ClushVo",
+      "getExpire()Ljava/time/Instant;": "BCmcrbn",
+      "getLimit()I": "LtxAdJQ",
+      "getNew0()Ljava/time/Instant;": "xZcGKMl",
+      "getPriority()Ljava/time/Instant;": "SJseNMa"
+    }
   }
 }

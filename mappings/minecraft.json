@@ -50248,5 +50248,225 @@
       "getDisplayHeight()I": "getDisplayHeight",
       "inGameHasFocus()Z": "inGameHasFocus"
     }
+  },
+  "net/minecraft/cristalix/netty/InvokeReadTask": {
+    "actual": "scCopWj",
+    "fields": {
+      "RECYCLER": "kPRmjRd",
+      "recycledPacket": "gWjrZHr",
+      "handle": "kPRmjRd",
+      "netHandler": "gWjrZHr",
+      "packet": "gWjrZHr"
+    },
+    "methods": {
+      "run()V": "run",
+      "call()Ljava/lang/Void;": "gWjrZHr",
+      "recycle()V": "recycle",
+      "newInstance(Lnet/minecraft/network/INetHandler;Lnet/minecraft/network/InboundPacket;)Lnet/minecraft/cristalix/netty/InvokeReadTask;": "gWjrZHr"
+    }
+  },
+  "net/minecraft/util/math/Vec3i": {
+    "actual": "qxSRKqA",
+    "fields": {
+      "x": "yuHMixK",
+      "y": "HnZskzl",
+      "z": "jrZAYKi"
+    },
+    "methods": {
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "hashCode()I": "hashCode",
+      "compareTo(Lnet/minecraft/util/math/Vec3i;)I": "gWjrZHr",
+      "getX()I": "getX",
+      "getY()I": "getY",
+      "getZ()I": "getZ",
+      "crossProduct(Lnet/minecraft/util/math/Vec3i;)Lnet/minecraft/util/math/Vec3i;": "gWjrZHr",
+      "getDistance(III)D": "getDistance",
+      "distanceSq(DDD)D": "distanceSq",
+      "distanceSq(III)D": "gWjrZHr",
+      "distanceSqToCenter(DDD)D": "distanceSqToCenter",
+      "distanceSq(Lnet/minecraft/util/math/Vec3i;)D": "gWjrZHr",
+      "toString()Ljava/lang/String;": "toString",
+      "crossProduct(Ldev/xdark/clientapi/math/Vec3i;)Ldev/xdark/clientapi/math/Vec3i;": "crossProduct"
+    }
+  },
+  "net/minecraft/util/ResourceLocation": {
+    "actual": "FznRFPB",
+    "fields": {},
+    "methods": {
+      "getPath()Ljava/lang/String;": "obWbjzA",
+      "getNamespace()Ljava/lang/String;": "gWjrZHr"
+    }
+  },
+  "net/minecraft/client/settings/KeyBinding": {
+    "actual": "autTRII",
+    "fields": {
+      "keyByNameMap": "SJseNMa",
+      "KEYBIND_ARRAY": "PMHiasd",
+      "HASH": "gWjrZHr",
+      "KEYBIND_SET": "DpLHUuB",
+      "FAST_CATEGORY_ORDER": "xZcGKMl",
+      "CATEGORY_ORDER": "nVUohAJ",
+      "keyDescription": "WWspnbc",
+      "keyCodeDefault": "UoLPAwK",
+      "keyCategory": "tfGxGbv",
+      "pressed": "WJMXEpy",
+      "pressTime": "skBretX",
+      "locked": "qJanDvK"
+    },
+    "methods": {
+      "press()V": "ZNvqiOw",
+      "onTick(I)V": "yoWaGjB",
+      "setKeyBindState(IZ)V": "SJseNMa",
+      "changeKeyBind(Lnet/minecraft/client/settings/KeyBinding;Z)V": "gWjrZHr",
+      "updateKeyBindState()V": "Ijnfjvn",
+      "unPressAllKeys()V": "WWBQAYJ",
+      "resetKeyBindingArrayAndHash()V": "GjKfkix",
+      "getKeybinds()Ljava/util/Set;": "UjBIMNN",
+      "add()V": "UpQqcBl",
+      "remove()V": "remove",
+      "isRegistered()Z": "WWspnbc",
+      "getKeyCategory()Ljava/lang/String;": "SQsQYjb",
+      "isPressed()Z": "isPressed",
+      "unpressKey()V": "hlbXkGr",
+      "getKeyDescription()Ljava/lang/String;": "wEIbAWV",
+      "getKeyCodeDefault()I": "getKeyCodeDefault",
+      "getKeyCode()I": "getKeyCode",
+      "setKeyCode(I)V": "oYYSyxC",
+      "compareTo(Lnet/minecraft/client/settings/KeyBinding;)I": "gWjrZHr",
+      "getDisplayString(Ljava/lang/String;)Ljava/util/function/Supplier;": "gWjrZHr",
+      "setKeyDescription(Ljava/lang/String;)V": "FHURYzE",
+      "setKeyCodeDefault(I)V": "rOaRXtk",
+      "setKeyCategory(Ljava/lang/String;)V": "caCwAvT",
+      "setPressed(Z)V": "cfpObRT",
+      "setPressTime(I)V": "tbcSobh",
+      "lambda$getDisplayString$1(Lnet/minecraft/client/settings/KeyBinding;)Ljava/lang/String;": "gWjrZHr",
+      "lambda$getDisplayString$0(Ljava/lang/String;)Ljava/lang/String;": "WjCdIbC",
+      "isKeyDown()Z": "isKeyDown",
+      "handler$zzl000$changeKeyBind(Lnet/minecraft/client/settings/KeyBinding;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V": "gWjrZHr",
+      "isLocked()Z": "OfTTGTP",
+      "setLocked(Z)V": "qlMRxBm"
+    }
+  },
+  "net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher": {
+    "actual": "MabBxEa",
+    "fields": {
+      "renderers": "IJWvlUE",
+      "fontRenderer": "xZcGKMl",
+      "staticPlayerX": "stoLRGh",
+      "staticPlayerY": "LslvfLf",
+      "staticPlayerZ": "UbMvdrX",
+      "renderEngine": "WSVcWSq",
+      "world": "gWjrZHr",
+      "entity": "kcVZOtm",
+      "entityYaw": "ndWoULj",
+      "entityPitch": "qgvoWHW",
+      "cameraHitResult": "BCmcrbn",
+      "entityX": "bdDDfOC",
+      "entityY": "PMHiasd",
+      "entityZ": "nVUohAJ",
+      "tileEntityRendered": "kPRmjRd",
+      "skullRenderer": "gWjrZHr",
+      "minecraft": "obWbjzA"
+    },
+    "methods": {
+      "getRenderer(Ljava/lang/Class;)Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;": "gWjrZHr",
+      "getRenderer(Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;": "gWjrZHr",
+      "prepare(Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;Lnet/minecraft/util/math/RayTraceResult;F)V": "gWjrZHr",
+      "render(Lnet/minecraft/tileentity/TileEntity;FI)V": "gWjrZHr",
+      "render(Lnet/minecraft/tileentity/TileEntity;DDDF)V": "gWjrZHr",
+      "render(Lnet/minecraft/tileentity/TileEntity;DDDFF)V": "gWjrZHr",
+      "render(Lnet/minecraft/tileentity/TileEntity;DDDFIF)V": "gWjrZHr",
+      "setWorld(Lnet/minecraft/world/World;)V": "kPRmjRd",
+      "getFontRenderer()Lnet/minecraft/client/gui/FontRenderer;": "gWjrZHr"
+    }
+  },
+  "net/minecraft/client/resources/Language": {
+    "actual": "ExwmGZt",
+    "fields": {
+      "languageCode": "RrKclpt"
+    },
+    "methods": {
+      "getLanguageCode()Ljava/lang/String;": "gWjrZHr",
+      "isBidirectional()Z": "VUbXpff",
+      "toString()Ljava/lang/String;": "TwmUyAy",
+      "equals(Ljava/lang/Object;)Z": "kcVZOtm",
+      "hashCode()I": "getDuration",
+      "compareTo(Lnet/minecraft/client/resources/Language;)I": "gWjrZHr",
+      "getCode()Ljava/lang/String;": "toString",
+      "getRegion()Ljava/lang/String;": "getPotion"
+    }
+  },
+  "net/minecraft/util/text/ITextComponent": {
+    "actual": "xSQSEhU",
+    "fields": {},
+    "methods": {
+      "setStyle(Lnet/minecraft/util/text/Style;)Lnet/minecraft/util/text/ITextComponent;": "gWjrZHr",
+      "getStyle()Lnet/minecraft/util/text/Style;": "BCmcrbn",
+      "appendText(Ljava/lang/String;)Lnet/minecraft/util/text/ITextComponent;": "gWjrZHr",
+      "appendSibling(Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;": "gWjrZHr",
+      "getUnformattedComponentText()Ljava/lang/String;": "LzYOZuP",
+      "getUnformattedText()Ljava/lang/String;": "getUnformattedText",
+      "getFormattedText()Ljava/lang/String;": "getFormattedText",
+      "getSiblings()Ljava/util/List;": "kPRmjRd",
+      "createCopy()Lnet/minecraft/util/text/ITextComponent;": "LzYOZuP",
+      "setStyle(Ldev/xdark/clientapi/text/Style;)Ldev/xdark/clientapi/text/Text;": "setStyle",
+      "getStyle()Ldev/xdark/clientapi/text/Style;": "getStyle",
+      "append(Ldev/xdark/clientapi/text/Text;)Ldev/xdark/clientapi/text/Text;": "append",
+      "getUnformattedPart()Ljava/lang/String;": "getUnformattedPart",
+      "getParts()Ljava/util/List;": "getParts",
+      "copy()Ldev/xdark/clientapi/text/Text;": "copy"
+    }
+  },
+  "net/minecraft/util/EnumFacing$Plane": {
+    "actual": "daLbRai",
+    "fields": {
+      "HORIZONTAL": "X",
+      "VERTICAL": "Y",
+      "$VALUES": "$VALUES"
+    },
+    "methods": {
+      "values()[Lnet/minecraft/util/EnumFacing$Plane;": "values",
+      "valueOf(Ljava/lang/String;)Lnet/minecraft/util/EnumFacing$Plane;": "valueOf",
+      "test(Lnet/minecraft/util/EnumFacing;)Z": "gWjrZHr",
+      "iterator()Ljava/util/Iterator;": "cZvWmYA"
+    }
+  },
+  "net/minecraft/util/EnumFacing$Axis": {
+    "actual": "dRTfrRT",
+    "fields": {
+      "X": "HORIZONTAL",
+      "Y": "VERTICAL",
+      "$VALUES": "$VALUES"
+    },
+    "methods": {
+      "values()[Lnet/minecraft/util/EnumFacing$Axis;": "values",
+      "valueOf(Ljava/lang/String;)Lnet/minecraft/util/EnumFacing$Axis;": "valueOf",
+      "getName2()Ljava/lang/String;": "iterator",
+      "test(Lnet/minecraft/util/EnumFacing;)Z": "gWjrZHr"
+    }
+  },
+  "net/minecraft/network/play/server/SPacketChat": {
+    "actual": "xUYiCQm",
+    "fields": {},
+    "methods": {
+      "getChatComponent()Lnet/minecraft/util/text/ITextComponent;": "getPath",
+      "getType()Lnet/minecraft/util/text/ChatType;": "getNamespace"
+    }
+  },
+  "net/minecraft/potion/PotionEffect": {
+    "actual": "RnoQlAG",
+    "fields": {
+      "potion": "ZidqfbY"
+    },
+    "methods": {
+      "getPotion()Lnet/minecraft/potion/Potion;": "LtxAdJQ",
+      "getDuration()I": "hashCode",
+      "getIsAmbient()Z": "isBidirectional",
+      "getEffectName()Ljava/lang/String;": "toString",
+      "onUpdate(Lnet/minecraft/entity/EntityLivingBase;)Z": "equals",
+      "toString()Ljava/lang/String;": "getCode",
+      "compareTo(Lnet/minecraft/potion/PotionEffect;)I": "gWjrZHr",
+      "getPotion()Ldev/xdark/clientapi/potion/Potion;": "getRegion"
+    }
   }
 }
