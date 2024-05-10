@@ -24,6 +24,9 @@ public class ClassTransformer {
         if (classNode.signature != null) {
             classNode.signature = mappings.mapClassNames(classNode.signature);
         }
+        if (classNode.outerMethodDesc != null) {
+            classNode.outerMethodDesc = mappings.mapClassNames(classNode.outerMethodDesc);
+        }
     }
 
     private void transformFields(List<FieldNode> fields) {
@@ -38,6 +41,17 @@ public class ClassTransformer {
         method.desc = mappings.mapClassNames(method.desc);
         if (method.signature != null) {
             method.signature = mappings.mapClassNames(method.signature);
+        }
+        if (method.exceptions != null) {
+            method.exceptions = mappings.mapClassesNames(method.exceptions);
+        }
+        if (method.localVariables != null) {
+            method.localVariables.forEach(var -> {
+                var.desc = mappings.mapClassNames(var.desc);
+                if (var.signature!= null) {
+                    var.signature = mappings.mapClassNames(var.signature);
+                }
+            });
         }
 
         instructionTransformer.transformList(method.instructions);

@@ -18,7 +18,7 @@ public class Asm {
     }
 
     public byte[] toByteCode(ClassNode classNode) {
-        val writer = new ClassWriter(ClassWriter.COMPUTE_FRAMES | ClassWriter.COMPUTE_MAXS);
+        val writer = new ClassWriter(ClassWriter.COMPUTE_MAXS);
         classNode.accept(writer);
 
         return writer.toByteArray();

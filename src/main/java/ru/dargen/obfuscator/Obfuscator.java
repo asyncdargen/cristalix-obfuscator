@@ -31,12 +31,6 @@ public class Obfuscator {
         }
 
         val mappingsPath = getProperty("mappings", "mappings");
-        val dependenciesPaths = Arrays.stream(getProperty("dependencies", String.join(",",
-                getProperty("user.home") + "/.cristalix/updates/Minigames/libraries/lwjgl",
-                getProperty("user.home") + "/.cristalix/updates/Minigames/libraries",
-                getProperty("user.home") + "/.cristalix/updates/Minigames/minecraft.jar",
-                "original"
-        )).split(",")).map(Paths::get).collect(Collectors.toList());
 
         val inFile = Paths.get(args[0]);
         val outFile = args.length > 1 ? Paths.get(args[1]) : inFile;
@@ -46,9 +40,6 @@ public class Obfuscator {
         transformer = new ClassTransformer(mappings, instructionTransformer);
 
         val entries = Jars.readJar(inFile);
-
-        Jars.addAppClassPath(inFile);
-        addDependencies(dependenciesPaths);
 
         transformClasses(entries);
 

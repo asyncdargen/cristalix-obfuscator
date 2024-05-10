@@ -4378,6 +4378,20 @@
       "getSpawnToAngle(Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;)D": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/FieldInsnNode": {
+    "actual": "QmMnEuF",
+    "fields": {
+      "owner": "xiOHUEZ",
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/gui/GuiMultiplayer": {
     "actual": "HQiaZjx",
     "fields": {
@@ -4419,6 +4433,52 @@
       "canMoveDown(Lnet/minecraft/client/gui/ServerListEntryNormal;I)Z": "kPRmjRd",
       "moveServerUp(Lnet/minecraft/client/gui/ServerListEntryNormal;IZ)V": "gWjrZHr",
       "moveServerDown(Lnet/minecraft/client/gui/ServerListEntryNormal;IZ)V": "kPRmjRd"
+    }
+  },
+  "org/objectweb/asm/Label": {
+    "actual": "qbxCsPU",
+    "fields": {
+      "FLAG_DEBUG_ONLY": "hSGgnGr",
+      "FLAG_JUMP_TARGET": "jdEbpbw",
+      "FLAG_RESOLVED": "MDTcvPy",
+      "FLAG_REACHABLE": "QDEHkFk",
+      "FLAG_SUBROUTINE_CALLER": "RGKorEj",
+      "FLAG_SUBROUTINE_START": "njDGTBQ",
+      "FLAG_SUBROUTINE_END": "YhnVuqb",
+      "LINE_NUMBERS_CAPACITY_INCREMENT": "XqpjWhH",
+      "FORWARD_REFERENCES_CAPACITY_INCREMENT": "VIcTGWj",
+      "FORWARD_REFERENCE_TYPE_MASK": "bITBqcp",
+      "FORWARD_REFERENCE_TYPE_SHORT": "AErrDNF",
+      "FORWARD_REFERENCE_TYPE_WIDE": "PSTjQWi",
+      "FORWARD_REFERENCE_HANDLE_MASK": "jYaIiCx",
+      "EMPTY_LIST": "xZcGKMl",
+      "info": "yuHMixK",
+      "flags": "FpCNmUX",
+      "lineNumber": "obWbjzA",
+      "otherLineNumbers": "ScRPMjE",
+      "bytecodeOffset": "XlAKnlC",
+      "forwardReferences": "HtPaSly",
+      "inputStackSize": "BrGopGP",
+      "outputStackSize": "XkTqykZ",
+      "outputStackMax": "kcVZOtm",
+      "subroutineId": "MoiEanH",
+      "frame": "gWjrZHr",
+      "nextBasicBlock": "UjBIMNN",
+      "outgoingEdges": "kPRmjRd",
+      "nextListElement": "FpCNmUX"
+    },
+    "methods": {
+      "getOffset()I": "getOffset",
+      "getCanonicalInstance()Lorg/objectweb/asm/Label;": "gWjrZHr",
+      "addLineNumber(I)V": "IguhgAC",
+      "accept(Lorg/objectweb/asm/MethodVisitor;Z)V": "gWjrZHr",
+      "put(Lorg/objectweb/asm/ByteVector;IZ)V": "gWjrZHr",
+      "addForwardReference(III)V": "oiiXgwP",
+      "resolve([BI)Z": "gWjrZHr",
+      "markSubroutine(S)V": "gWjrZHr",
+      "addSubroutineRetSuccessors(Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "pushSuccessors(Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Label;": "gWjrZHr",
+      "toString()Ljava/lang/String;": "toString"
     }
   },
   "net/minecraft/client/renderer/entity/RenderSkeleton": {
@@ -5063,6 +5123,75 @@
       "getMapColor(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/material/MapColor;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/Type": {
+    "actual": "STpreRV",
+    "fields": {
+      "VOID": "UnrhckO",
+      "BOOLEAN": "dmYllRM",
+      "CHAR": "IqLiJJZ",
+      "BYTE": "HTHBTEH",
+      "SHORT": "cqpmINE",
+      "INT": "ziVzVGu",
+      "FLOAT": "PRqJELw",
+      "LONG": "yZVGxxi",
+      "DOUBLE": "baoXjOY",
+      "ARRAY": "jFAEOJD",
+      "OBJECT": "PEiUYJO",
+      "METHOD": "xNkDtCd",
+      "INTERNAL": "fSYCjMZ",
+      "PRIMITIVE_DESCRIPTORS": "OpPfuWW",
+      "VOID_TYPE": "gWjrZHr",
+      "BOOLEAN_TYPE": "kPRmjRd",
+      "CHAR_TYPE": "LzYOZuP",
+      "BYTE_TYPE": "BCmcrbn",
+      "SHORT_TYPE": "SJseNMa",
+      "INT_TYPE": "xZcGKMl",
+      "FLOAT_TYPE": "UjBIMNN",
+      "LONG_TYPE": "FpCNmUX",
+      "DOUBLE_TYPE": "obWbjzA",
+      "sort": "smulnxr",
+      "valueBuffer": "JxrUlIa",
+      "valueBegin": "wfFxuVT",
+      "valueEnd": "izbBfjo"
+    },
+    "methods": {
+      "getType(Ljava/lang/String;)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getType(Ljava/lang/Class;)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getType(Ljava/lang/reflect/Constructor;)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getType(Ljava/lang/reflect/Method;)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getElementType()Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getObjectType(Ljava/lang/String;)Lorg/objectweb/asm/Type;": "kPRmjRd",
+      "getMethodType(Ljava/lang/String;)Lorg/objectweb/asm/Type;": "LzYOZuP",
+      "getMethodType(Lorg/objectweb/asm/Type;[Lorg/objectweb/asm/Type;)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getArgumentTypes()[Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getArgumentTypes(Ljava/lang/String;)[Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getArgumentTypes(Ljava/lang/reflect/Method;)[Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getReturnType()Lorg/objectweb/asm/Type;": "kPRmjRd",
+      "getReturnType(Ljava/lang/String;)Lorg/objectweb/asm/Type;": "BCmcrbn",
+      "getReturnType(Ljava/lang/reflect/Method;)Lorg/objectweb/asm/Type;": "kPRmjRd",
+      "getReturnTypeOffset(Ljava/lang/String;)I": "XxVKYNi",
+      "getTypeInternal(Ljava/lang/String;II)Lorg/objectweb/asm/Type;": "gWjrZHr",
+      "getClassName()Ljava/lang/String;": "hAbrDra",
+      "getInternalName()Ljava/lang/String;": "HWLfNdK",
+      "getInternalName(Ljava/lang/Class;)Ljava/lang/String;": "getInternalName",
+      "getDescriptor()Ljava/lang/String;": "TRDTkMx",
+      "getDescriptor(Ljava/lang/Class;)Ljava/lang/String;": "kPRmjRd",
+      "getConstructorDescriptor(Ljava/lang/reflect/Constructor;)Ljava/lang/String;": "gWjrZHr",
+      "getMethodDescriptor(Lorg/objectweb/asm/Type;[Lorg/objectweb/asm/Type;)Ljava/lang/String;": "gWjrZHr",
+      "getMethodDescriptor(Ljava/lang/reflect/Method;)Ljava/lang/String;": "gWjrZHr",
+      "appendDescriptor(Ljava/lang/StringBuilder;)V": "LzYOZuP",
+      "appendDescriptor(Ljava/lang/Class;Ljava/lang/StringBuilder;)V": "gWjrZHr",
+      "getSort()I": "roUWRgC",
+      "getDimensions()I": "xklrysU",
+      "getSize()I": "getSize",
+      "getArgumentsAndReturnSizes()I": "TftTvgp",
+      "getArgumentsAndReturnSizes(Ljava/lang/String;)I": "VUbXpff",
+      "getOpcode(I)I": "SpewARj",
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "hashCode()I": "hashCode",
+      "toString()Ljava/lang/String;": "toString"
+    }
+  },
   "net/minecraft/world/biome/BiomeHills": {
     "actual": "GBYsnAF",
     "fields": {},
@@ -5358,6 +5487,18 @@
       "getStateForPlacement(Lnet/minecraft/world/World;IIILnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/LineNumberNode": {
+    "actual": "yEzHUnK",
+    "fields": {
+      "line": "mIDEtqY",
+      "start": "kPRmjRd"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/gui/toasts/GuiToast$ToastInstance": {
     "actual": "TwjWivs",
     "fields": {
@@ -5642,6 +5783,20 @@
       "doClientRenderEffects()V": "uxjDiTo",
       "initPhase()V": "ZvBVLmq",
       "getType()Lnet/minecraft/entity/boss/dragon/phase/PhaseList;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/RecordComponentVisitor": {
+    "actual": "sdqxHqs",
+    "fields": {
+      "api": "keDjWXe",
+      "delegate": "gWjrZHr"
+    },
+    "methods": {
+      "getDelegate()Lorg/objectweb/asm/RecordComponentVisitor;": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd"
     }
   },
   "net/minecraft/network/play/server/SPacketEntityProperties": {
@@ -6796,6 +6951,31 @@
       "setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/FieldWriter": {
+    "actual": "PgEdDqH",
+    "fields": {
+      "symbolTable": "LzYOZuP",
+      "accessFlags": "ntubppB",
+      "nameIndex": "Nzscrtf",
+      "descriptorIndex": "OyIlSCd",
+      "signatureIndex": "HfuAFpi",
+      "constantValueIndex": "ONEuYsd",
+      "lastRuntimeVisibleAnnotation": "LzYOZuP",
+      "lastRuntimeInvisibleAnnotation": "BCmcrbn",
+      "lastRuntimeVisibleTypeAnnotation": "SJseNMa",
+      "lastRuntimeInvisibleTypeAnnotation": "xZcGKMl",
+      "firstAttribute": "kPRmjRd"
+    },
+    "methods": {
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd",
+      "computeFieldInfoSize()I": "kUbRWMQ",
+      "putFieldInfo(Lorg/objectweb/asm/ByteVector;)V": "gWjrZHr",
+      "collectAttributePrototypes(Lorg/objectweb/asm/Attribute$Set;)V": "gWjrZHr"
+    }
+  },
   "net/optifine/entity/model/ModelAdapterHeadDragon": {
     "actual": "ZbkODpG",
     "fields": {},
@@ -7035,6 +7215,19 @@
     "fields": {},
     "methods": {
       "createParticle(ILnet/minecraft/world/World;DDDDDD[I)Lnet/minecraft/client/particle/Particle;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/FieldVisitor": {
+    "actual": "ZPlcQzH",
+    "fields": {
+      "api": "ZkGYjnr",
+      "fv": "gWjrZHr"
+    },
+    "methods": {
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd"
     }
   },
   "net/minecraft/cristalix/resources/ServerCache$Entry": {
@@ -7666,6 +7859,17 @@
       "playing(Ljava/lang/String;)Z": "kPRmjRd"
     }
   },
+  "org/objectweb/asm/tree/ModuleOpenNode": {
+    "actual": "KdHpQvG",
+    "fields": {
+      "packaze": "oGNWioh",
+      "access": "jPrihhU",
+      "modules": "DgxPTBk"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/ModuleVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/optifine/random/RandomEntity": {
     "actual": "NcoGTIM",
     "fields": {
@@ -8017,6 +8221,17 @@
       "setLivingAnimations(Lnet/minecraft/entity/EntityLivingBase;FFF)V": "kPRmjRd",
       "setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V": "gWjrZHr",
       "postRenderArm(FLnet/minecraft/util/EnumHandSide;)V": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/tree/ModuleExportNode": {
+    "actual": "wqAqMnY",
+    "fields": {
+      "packaze": "oGNWioh",
+      "access": "jPrihhU",
+      "modules": "DgxPTBk"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/ModuleVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/cristalix/resources/ServerCache$1": {
@@ -8475,6 +8690,42 @@
       "getExpressionType()Lnet/optifine/expr/ExpressionType;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/Symbol": {
+    "actual": "gJCjAst",
+    "fields": {
+      "CONSTANT_CLASS_TAG": "YvEELOy",
+      "CONSTANT_FIELDREF_TAG": "MOfZIwH",
+      "CONSTANT_METHODREF_TAG": "vafFCbe",
+      "CONSTANT_INTERFACE_METHODREF_TAG": "WqbkWSV",
+      "CONSTANT_STRING_TAG": "czamvne",
+      "CONSTANT_INTEGER_TAG": "IUXBaeK",
+      "CONSTANT_FLOAT_TAG": "pbEAiuJ",
+      "CONSTANT_LONG_TAG": "zjgGltc",
+      "CONSTANT_DOUBLE_TAG": "KnImeyE",
+      "CONSTANT_NAME_AND_TYPE_TAG": "lfqvASd",
+      "CONSTANT_UTF8_TAG": "PScwAMI",
+      "CONSTANT_METHOD_HANDLE_TAG": "QtFfPcw",
+      "CONSTANT_METHOD_TYPE_TAG": "KFybvxg",
+      "CONSTANT_DYNAMIC_TAG": "LZYcqJt",
+      "CONSTANT_INVOKE_DYNAMIC_TAG": "Mqduwwx",
+      "CONSTANT_MODULE_TAG": "iDOnjNZ",
+      "CONSTANT_PACKAGE_TAG": "YbTPWgc",
+      "BOOTSTRAP_METHOD_TAG": "ccdQLYq",
+      "TYPE_TAG": "onQsHce",
+      "UNINITIALIZED_TYPE_TAG": "fopeuuc",
+      "MERGED_TYPE_TAG": "MCajNVB",
+      "index": "kQMUgRZ",
+      "tag": "qIYPVah",
+      "owner": "xAiQVHP",
+      "name": "EKRBfdq",
+      "value": "vHGBuab",
+      "data": "ZTgyZNY",
+      "info": "nYvtBUv"
+    },
+    "methods": {
+      "getArgumentsAndReturnSizes()I": "TftTvgp"
+    }
+  },
   "net/minecraft/entity/projectile/ProjectileHelper": {
     "actual": "JoTheiq",
     "fields": {},
@@ -8505,6 +8756,17 @@
       "renderChunkLayer(Lnet/minecraft/util/BlockRenderLayer;)V": "LzYOZuP",
       "drawRegion(IIILjava/nio/IntBuffer;)V": "gWjrZHr",
       "preRenderRegion(III)V": "obWbjzA"
+    }
+  },
+  "org/objectweb/asm/signature/SignatureReader": {
+    "actual": "dBGDdkF",
+    "fields": {
+      "signatureValue": "wPOyigd"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/signature/SignatureVisitor;)V": "gWjrZHr",
+      "acceptType(Lorg/objectweb/asm/signature/SignatureVisitor;)V": "kPRmjRd",
+      "parseType(Ljava/lang/String;ILorg/objectweb/asm/signature/SignatureVisitor;)I": "gWjrZHr"
     }
   },
   "net/minecraft/client/gui/spectator/SpectatorMenu$1": {
@@ -8807,6 +9069,27 @@
       "getBlockFaceShape(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;IIILnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/ByteVector": {
+    "actual": "sxQIRMS",
+    "fields": {
+      "data": "xiOHUEZ",
+      "length": "bPQZtow"
+    },
+    "methods": {
+      "putByte(I)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "put11(II)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "putShort(I)Lorg/objectweb/asm/ByteVector;": "kPRmjRd",
+      "put12(II)Lorg/objectweb/asm/ByteVector;": "kPRmjRd",
+      "put112(III)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "putInt(I)Lorg/objectweb/asm/ByteVector;": "LzYOZuP",
+      "put122(III)Lorg/objectweb/asm/ByteVector;": "kPRmjRd",
+      "putLong(J)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "putUTF8(Ljava/lang/String;)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "encodeUtf8(Ljava/lang/String;II)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "putByteArray([BII)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "enlarge(I)V": "HiiEkUV"
+    }
+  },
   "net/minecraft/network/play/server/SPacketPlayerListItem": {
     "actual": "dheuVWd",
     "fields": {
@@ -9052,6 +9335,45 @@
       "makeDefVertexFormatTextured()Lnet/minecraft/client/renderer/vertex/VertexFormat;": "SJseNMa"
     }
   },
+  "org/objectweb/asm/tree/AbstractInsnNode": {
+    "actual": "uNKbIbk",
+    "fields": {
+      "INSN": "dAVSdwM",
+      "INT_INSN": "UQnXVjK",
+      "VAR_INSN": "lhkBAoL",
+      "TYPE_INSN": "AvYNIAI",
+      "FIELD_INSN": "oibVsPM",
+      "METHOD_INSN": "Cncoant",
+      "INVOKE_DYNAMIC_INSN": "VHmDpDY",
+      "JUMP_INSN": "GcJWJBY",
+      "LABEL": "ZtxyPip",
+      "LDC_INSN": "gGIwTvD",
+      "IINC_INSN": "esqDrxE",
+      "TABLESWITCH_INSN": "MQGmcec",
+      "LOOKUPSWITCH_INSN": "nrLBMaA",
+      "MULTIANEWARRAY_INSN": "sMwixAa",
+      "FRAME": "OFShIJv",
+      "LINE": "kkIpCXa",
+      "opcode": "VkgMeck",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR",
+      "previousInsn": "gWjrZHr",
+      "nextInsn": "kPRmjRd",
+      "index": "kaDvjFV"
+    },
+    "methods": {
+      "getOpcode()I": "uNWUDyK",
+      "getType()I": "JyFkRyh",
+      "getPrevious()Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr",
+      "getNext()Lorg/objectweb/asm/tree/AbstractInsnNode;": "kPRmjRd",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "acceptAnnotations(Lorg/objectweb/asm/MethodVisitor;)V": "kPRmjRd",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr",
+      "clone(Lorg/objectweb/asm/tree/LabelNode;Ljava/util/Map;)Lorg/objectweb/asm/tree/LabelNode;": "gWjrZHr",
+      "clone(Ljava/util/List;Ljava/util/Map;)[Lorg/objectweb/asm/tree/LabelNode;": "gWjrZHr",
+      "cloneAnnotations(Lorg/objectweb/asm/tree/AbstractInsnNode;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/block/BlockChest": {
     "actual": "EFQECIY",
     "fields": {
@@ -9200,6 +9522,54 @@
     },
     "methods": {
       "onUpdateLook()V": "BrGopGP"
+    }
+  },
+  "org/objectweb/asm/TypeReference": {
+    "actual": "CNrZkAJ",
+    "fields": {
+      "CLASS_TYPE_PARAMETER": "tKtyHKP",
+      "METHOD_TYPE_PARAMETER": "PwmvkBB",
+      "CLASS_EXTENDS": "TVhAYpc",
+      "CLASS_TYPE_PARAMETER_BOUND": "eoYRJKt",
+      "METHOD_TYPE_PARAMETER_BOUND": "DVThJIn",
+      "FIELD": "LPylajn",
+      "METHOD_RETURN": "qYsElNs",
+      "METHOD_RECEIVER": "LIkGfyW",
+      "METHOD_FORMAL_PARAMETER": "ZZKTvYk",
+      "THROWS": "NMOSKjt",
+      "LOCAL_VARIABLE": "SDAQGQl",
+      "RESOURCE_VARIABLE": "qSLSFZe",
+      "EXCEPTION_PARAMETER": "XSYRSAb",
+      "INSTANCEOF": "hAWbSXu",
+      "NEW": "nYEFIHo",
+      "CONSTRUCTOR_REFERENCE": "OftMCfJ",
+      "METHOD_REFERENCE": "yGdfhkE",
+      "CAST": "jEytKLP",
+      "CONSTRUCTOR_INVOCATION_TYPE_ARGUMENT": "nVoWHZF",
+      "METHOD_INVOCATION_TYPE_ARGUMENT": "cRRaFBB",
+      "CONSTRUCTOR_REFERENCE_TYPE_ARGUMENT": "vmoxHis",
+      "METHOD_REFERENCE_TYPE_ARGUMENT": "jTqqKDF",
+      "targetTypeAndInfo": "lfSMFmu"
+    },
+    "methods": {
+      "newTypeReference(I)Lorg/objectweb/asm/TypeReference;": "gWjrZHr",
+      "newTypeParameterReference(II)Lorg/objectweb/asm/TypeReference;": "gWjrZHr",
+      "newTypeParameterBoundReference(III)Lorg/objectweb/asm/TypeReference;": "gWjrZHr",
+      "newSuperTypeReference(I)Lorg/objectweb/asm/TypeReference;": "kPRmjRd",
+      "newFormalParameterReference(I)Lorg/objectweb/asm/TypeReference;": "LzYOZuP",
+      "newExceptionReference(I)Lorg/objectweb/asm/TypeReference;": "BCmcrbn",
+      "newTryCatchReference(I)Lorg/objectweb/asm/TypeReference;": "SJseNMa",
+      "newTypeArgumentReference(II)Lorg/objectweb/asm/TypeReference;": "kPRmjRd",
+      "getSort()I": "roUWRgC",
+      "getTypeParameterIndex()I": "IpeGrYk",
+      "getTypeParameterBoundIndex()I": "YUkgsuJ",
+      "getSuperTypeIndex()I": "nUCBrQb",
+      "getFormalParameterIndex()I": "tDJAwBP",
+      "getExceptionIndex()I": "JxZzVbY",
+      "getTryCatchBlockIndex()I": "kEAhTct",
+      "getTypeArgumentIndex()I": "iAIpLrh",
+      "getValue()I": "wWVPvdZ",
+      "putTarget(ILorg/objectweb/asm/ByteVector;)V": "kPRmjRd"
     }
   },
   "net/minecraft/client/shader/ShaderManager": {
@@ -10494,6 +10864,29 @@
     "fields": {},
     "methods": {}
   },
+  "org/objectweb/asm/RecordComponentWriter": {
+    "actual": "hKfVCfu",
+    "fields": {
+      "symbolTable": "xZcGKMl",
+      "nameIndex": "GWfNwSV",
+      "descriptorIndex": "LSPUkTB",
+      "signatureIndex": "HfuAFpi",
+      "lastRuntimeVisibleAnnotation": "LzYOZuP",
+      "lastRuntimeInvisibleAnnotation": "BCmcrbn",
+      "lastRuntimeVisibleTypeAnnotation": "SJseNMa",
+      "lastRuntimeInvisibleTypeAnnotation": "xZcGKMl",
+      "firstAttribute": "kPRmjRd"
+    },
+    "methods": {
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd",
+      "computeRecordComponentInfoSize()I": "akqLSlN",
+      "putRecordComponentInfo(Lorg/objectweb/asm/ByteVector;)V": "BCmcrbn",
+      "collectAttributePrototypes(Lorg/objectweb/asm/Attribute$Set;)V": "LzYOZuP"
+    }
+  },
   "net/diamondden/render/RenderUtil": {
     "actual": "TIQFodD",
     "fields": {
@@ -10966,6 +11359,20 @@
       "createBlockState()Lnet/minecraft/block/state/BlockStateContainer;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/AnnotationVisitor": {
+    "actual": "zpyZPsp",
+    "fields": {
+      "api": "rKBVtRq",
+      "av": "gWjrZHr"
+    },
+    "methods": {
+      "visit(Ljava/lang/String;Ljava/lang/Object;)V": "LzYOZuP",
+      "visitEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitArray(Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitEnd()V": "visitEnd"
+    }
+  },
   "net/minecraft/client/gui/GuiUtilRenderComponents": {
     "actual": "yPsXrbn",
     "fields": {},
@@ -11312,6 +11719,17 @@
     "fields": {},
     "methods": {
       "getOptionControl()Lnet/minecraft/client/settings/GameSettings$Options;": "xiOHUEZ"
+    }
+  },
+  "org/objectweb/asm/tree/LocalVariableAnnotationNode": {
+    "actual": "AtYOpCQ",
+    "fields": {
+      "start": "JyFkRyh",
+      "end": "eWeMAtS",
+      "index": "xRzyLjS"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/MethodVisitor;Z)V": "gWjrZHr"
     }
   },
   "net/minecraft/scoreboard/Team": {
@@ -11738,6 +12156,23 @@
       "setState(Ldev/xdark/clientapi/render/BufferBuilder$State;)V": "setState"
     }
   },
+  "org/objectweb/asm/tree/AnnotationNode": {
+    "actual": "mncCbeG",
+    "fields": {
+      "desc": "vmAlWfp",
+      "values": "EjQtGsT"
+    },
+    "methods": {
+      "visit(Ljava/lang/String;Ljava/lang/Object;)V": "LzYOZuP",
+      "visitEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitArray(Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitEnd()V": "visitEnd",
+      "check(I)V": "wzFcXfC",
+      "accept(Lorg/objectweb/asm/AnnotationVisitor;)V": "gWjrZHr",
+      "accept(Lorg/objectweb/asm/AnnotationVisitor;Ljava/lang/String;Ljava/lang/Object;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/cristalix/util/EmptyTrackingList": {
     "actual": "lHoxdim",
     "fields": {
@@ -12074,6 +12509,41 @@
       "setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/ModuleWriter": {
+    "actual": "ScZdbzn",
+    "fields": {
+      "symbolTable": "SJseNMa",
+      "moduleNameIndex": "DvgounR",
+      "moduleFlags": "rqyMuuH",
+      "moduleVersionIndex": "tcrAJRl",
+      "requiresCount": "NFYiuZb",
+      "requires": "MoiEanH",
+      "exportsCount": "NTaufvj",
+      "exports": "nBvlYtT",
+      "opensCount": "MrUaGWM",
+      "opens": "clRoAwN",
+      "usesCount": "PHMdexN",
+      "usesIndex": "dHIfRSy",
+      "providesCount": "PIidnqS",
+      "provides": "WSVcWSq",
+      "packageCount": "JquoSsj",
+      "packageIndex": "xiOHUEZ",
+      "mainClassIndex": "yPrcbXV"
+    },
+    "methods": {
+      "visitMainClass(Ljava/lang/String;)V": "nNTPpMJ",
+      "visitPackage(Ljava/lang/String;)V": "ELrkFvi",
+      "visitRequire(Ljava/lang/String;ILjava/lang/String;)V": "gWjrZHr",
+      "visitExport(Ljava/lang/String;I[Ljava/lang/String;)V": "gWjrZHr",
+      "visitOpen(Ljava/lang/String;I[Ljava/lang/String;)V": "kPRmjRd",
+      "visitUse(Ljava/lang/String;)V": "jTSZHwx",
+      "visitProvide(Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitEnd()V": "visitEnd",
+      "getAttributeCount()I": "wHYxnZy",
+      "computeAttributesSize()I": "sVuISyB",
+      "putAttributes(Lorg/objectweb/asm/ByteVector;)V": "LzYOZuP"
+    }
+  },
   "net/minecraft/cristalix/TexResourceLocation": {
     "actual": "ShEnMiN",
     "fields": {
@@ -12104,6 +12574,23 @@
     "actual": "sbAbkCU",
     "fields": {},
     "methods": {}
+  },
+  "org/objectweb/asm/ModuleVisitor": {
+    "actual": "IknGlXh",
+    "fields": {
+      "api": "XtsEBxC",
+      "mv": "gWjrZHr"
+    },
+    "methods": {
+      "visitMainClass(Ljava/lang/String;)V": "nNTPpMJ",
+      "visitPackage(Ljava/lang/String;)V": "ELrkFvi",
+      "visitRequire(Ljava/lang/String;ILjava/lang/String;)V": "gWjrZHr",
+      "visitExport(Ljava/lang/String;I[Ljava/lang/String;)V": "gWjrZHr",
+      "visitOpen(Ljava/lang/String;I[Ljava/lang/String;)V": "kPRmjRd",
+      "visitUse(Ljava/lang/String;)V": "jTSZHwx",
+      "visitProvide(Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitEnd()V": "visitEnd"
+    }
   },
   "net/optifine/model/BlockModelUtils": {
     "actual": "oqwlcKt",
@@ -12875,6 +13362,18 @@
       "getBlockFaceShape(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;IIILnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/ClassTooLargeException": {
+    "actual": "ypJQaKU",
+    "fields": {
+      "serialVersionUID": "wUCoTiX",
+      "className": "xeoMALA",
+      "constantPoolCount": "VXydeUB"
+    },
+    "methods": {
+      "getClassName()Ljava/lang/String;": "hAbrDra",
+      "getConstantPoolCount()I": "hxeuhVs"
+    }
+  },
   "net/minecraft/client/audio/SoundEventAccessor": {
     "actual": "hvvbzPK",
     "fields": {
@@ -13268,6 +13767,31 @@
       "isChanged(I)Z": "HVivheQ",
       "reset()V": "reset"
     }
+  },
+  "org/objectweb/asm/Context": {
+    "actual": "sWFNebL",
+    "fields": {
+      "attributePrototypes": "kPRmjRd",
+      "parsingOptions": "rbaDOsw",
+      "charBuffer": "LzYOZuP",
+      "currentMethodAccessFlags": "InXcJOS",
+      "currentMethodName": "TNQtjoz",
+      "currentMethodDescriptor": "tSJAHOg",
+      "currentMethodLabels": "gWjrZHr",
+      "currentTypeAnnotationTarget": "hvvbzPK",
+      "currentTypeAnnotationTargetPath": "gWjrZHr",
+      "currentLocalVariableAnnotationRangeStarts": "kPRmjRd",
+      "currentLocalVariableAnnotationRangeEnds": "LzYOZuP",
+      "currentLocalVariableAnnotationRangeIndices": "GxGHLee",
+      "currentFrameOffset": "kxikjAj",
+      "currentFrameType": "UcKwZZF",
+      "currentFrameLocalCount": "KtjBwwO",
+      "currentFrameLocalCountDelta": "tFprkTO",
+      "currentFrameLocalTypes": "UjBIMNN",
+      "currentFrameStackCount": "cPMSJSk",
+      "currentFrameStackTypes": "FpCNmUX"
+    },
+    "methods": {}
   },
   "net/minecraft/client/renderer/entity/Render": {
     "actual": "jOajsOH",
@@ -14859,6 +15383,13 @@
       "getBlockState()Lnet/minecraft/block/state/IBlockState;": "LzYOZuP"
     }
   },
+  "org/objectweb/asm/CurrentFrame": {
+    "actual": "nIOQWsD",
+    "fields": {},
+    "methods": {
+      "execute(IILorg/objectweb/asm/Symbol;Lorg/objectweb/asm/SymbolTable;)V": "gWjrZHr"
+    }
+  },
   "net/diamondden/KillModTask": {
     "actual": "ioUOyuH",
     "fields": {
@@ -15304,6 +15835,115 @@
     "actual": "OSaXSBD",
     "fields": {},
     "methods": {}
+  },
+  "org/objectweb/asm/Constants": {
+    "actual": "EUBDIuQ",
+    "fields": {
+      "CONSTANT_VALUE": "DQuCDMs",
+      "CODE": "SdDhwGf",
+      "STACK_MAP_TABLE": "hxeuhVs",
+      "EXCEPTIONS": "ZvaNMgo",
+      "INNER_CLASSES": "kUbRWMQ",
+      "ENCLOSING_METHOD": "sjatsfY",
+      "SYNTHETIC": "IGavfAH",
+      "SIGNATURE": "ANJMBNE",
+      "SOURCE_FILE": "rYENeOO",
+      "SOURCE_DEBUG_EXTENSION": "uFpWUYb",
+      "LINE_NUMBER_TABLE": "sVuISyB",
+      "LOCAL_VARIABLE_TABLE": "akqLSlN",
+      "LOCAL_VARIABLE_TYPE_TABLE": "TftTvgp",
+      "DEPRECATED": "WazsnZc",
+      "RUNTIME_VISIBLE_ANNOTATIONS": "LIxxUyv",
+      "RUNTIME_INVISIBLE_ANNOTATIONS": "kkMbsXh",
+      "RUNTIME_VISIBLE_PARAMETER_ANNOTATIONS": "roUWRgC",
+      "RUNTIME_INVISIBLE_PARAMETER_ANNOTATIONS": "xklrysU",
+      "RUNTIME_VISIBLE_TYPE_ANNOTATIONS": "IpeGrYk",
+      "RUNTIME_INVISIBLE_TYPE_ANNOTATIONS": "YUkgsuJ",
+      "ANNOTATION_DEFAULT": "nUCBrQb",
+      "BOOTSTRAP_METHODS": "tDJAwBP",
+      "METHOD_PARAMETERS": "JxZzVbY",
+      "MODULE": "kEAhTct",
+      "MODULE_PACKAGES": "iAIpLrh",
+      "MODULE_MAIN_CLASS": "uNWUDyK",
+      "NEST_HOST": "MNHFKUG",
+      "NEST_MEMBERS": "oHyHAeg",
+      "PERMITTED_SUBCLASSES": "alOopmW",
+      "RECORD": "MBxIhgr",
+      "ACC_CONSTRUCTOR": "JPNggoJ",
+      "F_INSERT": "yZZRFci",
+      "LDC_W": "uBMhRII",
+      "LDC2_W": "XxWsrKp",
+      "ILOAD_0": "bJhffLi",
+      "ILOAD_1": "XduXBQv",
+      "ILOAD_2": "wGcAPVT",
+      "ILOAD_3": "dBlkZXp",
+      "LLOAD_0": "PzcakTm",
+      "LLOAD_1": "zaPTPLt",
+      "LLOAD_2": "KdwFrZg",
+      "LLOAD_3": "cOXHyUl",
+      "FLOAD_0": "ZHIclRf",
+      "FLOAD_1": "CPJoitE",
+      "FLOAD_2": "ySKonlv",
+      "FLOAD_3": "hnbGCoj",
+      "DLOAD_0": "KygHcTe",
+      "DLOAD_1": "TOkBzPe",
+      "DLOAD_2": "KdGdAlm",
+      "DLOAD_3": "ZXszNsO",
+      "ALOAD_0": "cLlzSPc",
+      "ALOAD_1": "SxXVxyV",
+      "ALOAD_2": "tKxMFff",
+      "ALOAD_3": "VmVkwRX",
+      "ISTORE_0": "vaZXsGx",
+      "ISTORE_1": "aSCbzEr",
+      "ISTORE_2": "EVRwwCX",
+      "ISTORE_3": "jPLbuwW",
+      "LSTORE_0": "GaxPrLS",
+      "LSTORE_1": "EnOrcMa",
+      "LSTORE_2": "mteJCaf",
+      "LSTORE_3": "DCPRhWL",
+      "FSTORE_0": "VguKFyZ",
+      "FSTORE_1": "LvqvWBK",
+      "FSTORE_2": "LhJdpCu",
+      "FSTORE_3": "KkuHTLa",
+      "DSTORE_0": "DsxduqQ",
+      "DSTORE_1": "DmketDr",
+      "DSTORE_2": "bCCSQsf",
+      "DSTORE_3": "lfqQPkI",
+      "ASTORE_0": "ywdxAAu",
+      "ASTORE_1": "CVPITuQ",
+      "ASTORE_2": "VmyJNNP",
+      "ASTORE_3": "gqNvRpR",
+      "WIDE": "eALjLOP",
+      "GOTO_W": "UAKaafu",
+      "JSR_W": "fBfffJU",
+      "WIDE_JUMP_OPCODE_DELTA": "tiiQNbM",
+      "ASM_OPCODE_DELTA": "ervNmQR",
+      "ASM_IFNULL_OPCODE_DELTA": "rYHzsig",
+      "ASM_IFEQ": "bUAMdHf",
+      "ASM_IFNE": "ZWxifxJ",
+      "ASM_IFLT": "nfZMCtG",
+      "ASM_IFGE": "KZbgtDl",
+      "ASM_IFGT": "LpcEaOe",
+      "ASM_IFLE": "NZogqwj",
+      "ASM_IF_ICMPEQ": "MoXaRsv",
+      "ASM_IF_ICMPNE": "jztmBYv",
+      "ASM_IF_ICMPLT": "CSqhtBc",
+      "ASM_IF_ICMPGE": "vhZGJsn",
+      "ASM_IF_ICMPGT": "NGPEbdx",
+      "ASM_IF_ICMPLE": "uRAGbBh",
+      "ASM_IF_ACMPEQ": "ixEhyAE",
+      "ASM_IF_ACMPNE": "pGiMZkK",
+      "ASM_GOTO": "TcRrOcO",
+      "ASM_JSR": "GlHCiPn",
+      "ASM_IFNULL": "VyjjVpO",
+      "ASM_IFNONNULL": "PnSsDCP",
+      "ASM_GOTO_W": "IwRHuYb"
+    },
+    "methods": {
+      "checkAsmExperimental(Ljava/lang/Object;)V": "FpCNmUX",
+      "isWhitelisted(Ljava/lang/String;)Z": "tWXlMam",
+      "checkIsPreview(Ljava/io/InputStream;)V": "kPRmjRd"
+    }
   },
   "net/minecraft/client/gui/achievement/GuiStats$Stats": {
     "actual": "zPJyYVq",
@@ -16384,6 +17024,18 @@
       "processPixelValues([III)V": "kPRmjRd"
     }
   },
+  "org/objectweb/asm/tree/JumpInsnNode": {
+    "actual": "xguqYPV",
+    "fields": {
+      "label": "gWjrZHr"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/network/play/client/CPacketPlayerTryUseItem": {
     "actual": "ifLorDS",
     "fields": {
@@ -16971,6 +17623,22 @@
       "getSpectatorName()Lnet/minecraft/util/text/ITextComponent;": "XkTqykZ",
       "renderIcon(FI)V": "gWjrZHr",
       "isEnabled()Z": "isEnabled"
+    }
+  },
+  "org/objectweb/asm/MethodTooLargeException": {
+    "actual": "hRdcvmE",
+    "fields": {
+      "serialVersionUID": "hBYGSzy",
+      "className": "MmzjgYg",
+      "methodName": "WYQQEff",
+      "descriptor": "eTikxxl",
+      "codeSize": "sPLbCCS"
+    },
+    "methods": {
+      "getClassName()Ljava/lang/String;": "hAbrDra",
+      "getMethodName()Ljava/lang/String;": "cTdqHIu",
+      "getDescriptor()Ljava/lang/String;": "TRDTkMx",
+      "getCodeSize()I": "rYENeOO"
     }
   },
   "net/minecraft/client/resources/ResourcePackListEntry": {
@@ -17750,6 +18418,18 @@
     },
     "methods": {
       "iterator()Ljava/util/Iterator;": "iterator"
+    }
+  },
+  "org/objectweb/asm/tree/IntInsnNode": {
+    "actual": "imKEOSL",
+    "fields": {
+      "operand": "aYayMym"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
     }
   },
   "net/minecraft/entity/projectile/EntityWitherSkull": {
@@ -19603,6 +20283,250 @@
       "getHeaderDescriptionId(I)Ljava/lang/String;": "SJseNMa"
     }
   },
+  "org/objectweb/asm/Opcodes": {
+    "actual": "kZCfgDK",
+    "fields": {
+      "ASM4": "hcNHJBk",
+      "ASM5": "uQMwJrD",
+      "ASM6": "hrsvqgz",
+      "ASM7": "gPKeujZ",
+      "ASM8": "csOnNLq",
+      "ASM9": "KVJIFtw",
+      "SOURCE_DEPRECATED": "vjGDrrp",
+      "SOURCE_MASK": "wkcUeCY",
+      "V1_1": "HLMiASy",
+      "V1_2": "rZJONKk",
+      "V1_3": "fEmEzhM",
+      "V1_4": "YsoWmab",
+      "V1_5": "IypZYcV",
+      "V1_6": "jyoUwTs",
+      "V1_7": "FdGPgnB",
+      "V1_8": "MNJDShl",
+      "V9": "QMhWYdQ",
+      "V10": "CynaAjO",
+      "V11": "PnsYLeJ",
+      "V12": "NSPpYPV",
+      "V13": "zlwjIeb",
+      "V14": "dJgotSh",
+      "V15": "WXvCqbo",
+      "V16": "xQZDQyY",
+      "V17": "uBLtHjj",
+      "V_PREVIEW": "fjHuBPD",
+      "ACC_PUBLIC": "oxLftLQ",
+      "ACC_PRIVATE": "jIdftVr",
+      "ACC_PROTECTED": "YnrDqPO",
+      "ACC_STATIC": "VfaxYRb",
+      "ACC_FINAL": "NHSlZPJ",
+      "ACC_SUPER": "aShmsNT",
+      "ACC_SYNCHRONIZED": "bjqIPPq",
+      "ACC_OPEN": "aWOxsjs",
+      "ACC_TRANSITIVE": "rvxpXBv",
+      "ACC_VOLATILE": "xoiKNca",
+      "ACC_BRIDGE": "MCNZFxF",
+      "ACC_STATIC_PHASE": "fvMFkXT",
+      "ACC_VARARGS": "oXzakAp",
+      "ACC_TRANSIENT": "PolZDTd",
+      "ACC_NATIVE": "kvQiFoM",
+      "ACC_INTERFACE": "BvrYzZi",
+      "ACC_ABSTRACT": "DWNduZX",
+      "ACC_STRICT": "NUkysRL",
+      "ACC_SYNTHETIC": "cyQixAs",
+      "ACC_ANNOTATION": "GpKuqun",
+      "ACC_ENUM": "aEwoUzf",
+      "ACC_MANDATED": "eVtVdDl",
+      "ACC_MODULE": "fXsOeyh",
+      "ACC_RECORD": "TYhZmtW",
+      "ACC_DEPRECATED": "TwjWivs",
+      "T_BOOLEAN": "icsWbub",
+      "T_CHAR": "jlRnfPh",
+      "T_FLOAT": "CWOyEvx",
+      "T_DOUBLE": "tDtTGaD",
+      "T_BYTE": "czVzWzH",
+      "T_SHORT": "TiKsErs",
+      "T_INT": "SiYQzNx",
+      "T_LONG": "HHboZpH",
+      "H_GETFIELD": "xKqiIlE",
+      "H_GETSTATIC": "GTpXJnl",
+      "H_PUTFIELD": "NWQSjNE",
+      "H_PUTSTATIC": "cIGAIuK",
+      "H_INVOKEVIRTUAL": "xebxcrj",
+      "H_INVOKESTATIC": "NglTJmP",
+      "H_INVOKESPECIAL": "piIQkbx",
+      "H_NEWINVOKESPECIAL": "NZCkoYN",
+      "H_INVOKEINTERFACE": "USsDbhS",
+      "F_NEW": "zqIGENC",
+      "F_FULL": "MjCpayD",
+      "F_APPEND": "sSddEaM",
+      "F_CHOP": "TibxcZD",
+      "F_SAME": "YsXBwhi",
+      "F_SAME1": "ZMAxgnz",
+      "TOP": "gWjrZHr",
+      "INTEGER": "kPRmjRd",
+      "FLOAT": "LzYOZuP",
+      "DOUBLE": "BCmcrbn",
+      "LONG": "SJseNMa",
+      "NULL": "xZcGKMl",
+      "UNINITIALIZED_THIS": "UjBIMNN",
+      "NOP": "xmKgbUT",
+      "ACONST_NULL": "uxvDYrV",
+      "ICONST_M1": "yMGQAKB",
+      "ICONST_0": "zsfwahI",
+      "ICONST_1": "FmritrN",
+      "ICONST_2": "wjuXOkZ",
+      "ICONST_3": "ylIillT",
+      "ICONST_4": "BVjVJqf",
+      "ICONST_5": "uSCmPmH",
+      "LCONST_0": "DkSdDAm",
+      "LCONST_1": "AmqryhX",
+      "FCONST_0": "kbtgPlB",
+      "FCONST_1": "SgrPJDo",
+      "FCONST_2": "xpMaGVN",
+      "DCONST_0": "HeVMbyg",
+      "DCONST_1": "nkmHOmZ",
+      "BIPUSH": "LscCKRD",
+      "SIPUSH": "dmywDfE",
+      "LDC": "MnjKhNn",
+      "ILOAD": "VdcpCsf",
+      "LLOAD": "DrqxRMp",
+      "FLOAD": "yIsJpVv",
+      "DLOAD": "TQXDlTK",
+      "ALOAD": "FZrfZpO",
+      "IALOAD": "EpjFFCf",
+      "LALOAD": "Pftdtsa",
+      "FALOAD": "OvSuESD",
+      "DALOAD": "eKPtFbw",
+      "AALOAD": "OERhVgM",
+      "BALOAD": "jmWxMJy",
+      "CALOAD": "ueJQRQS",
+      "SALOAD": "CScHWEc",
+      "ISTORE": "cLaxsRk",
+      "LSTORE": "xdQpKPT",
+      "FSTORE": "vzFnyoK",
+      "DSTORE": "sJxWUlM",
+      "ASTORE": "YNZEWrk",
+      "IASTORE": "hEewugC",
+      "LASTORE": "YQGaghy",
+      "FASTORE": "CkXfbGl",
+      "DASTORE": "qLmWkvl",
+      "AASTORE": "JzVaUXR",
+      "BASTORE": "HADhXrm",
+      "CASTORE": "YztxUyG",
+      "SASTORE": "gTWvnki",
+      "POP": "OBIRTqZ",
+      "POP2": "PLvKrMu",
+      "DUP": "IjUbCQF",
+      "DUP_X1": "rbiAyqh",
+      "DUP_X2": "scmRisY",
+      "DUP2": "LxCAlEb",
+      "DUP2_X1": "YAbOoTC",
+      "DUP2_X2": "UBSrXvw",
+      "SWAP": "YiUshjO",
+      "IADD": "cOKwfUV",
+      "LADD": "YqfuZsB",
+      "FADD": "bNldkuT",
+      "DADD": "ZyGcoei",
+      "ISUB": "pkSYtov",
+      "LSUB": "NstbZhz",
+      "FSUB": "xEXBRGk",
+      "DSUB": "rdfUbNr",
+      "IMUL": "EDTrxvg",
+      "LMUL": "tmcAaTW",
+      "FMUL": "TZOOHNr",
+      "DMUL": "jXxlCrc",
+      "IDIV": "eVcphmv",
+      "LDIV": "ASpKyKh",
+      "FDIV": "HYxpvyS",
+      "DDIV": "BHRDREA",
+      "IREM": "agrjYcP",
+      "LREM": "UOWIOkl",
+      "FREM": "QHNXtwG",
+      "DREM": "xtJEUhp",
+      "INEG": "NYsCdLp",
+      "LNEG": "mVpAyZt",
+      "FNEG": "oGQdcCC",
+      "DNEG": "PEximjO",
+      "ISHL": "QMcpxba",
+      "LSHL": "AtLZOej",
+      "ISHR": "VVOhEjR",
+      "LSHR": "qicRRaL",
+      "IUSHR": "DAipWus",
+      "LUSHR": "oDopvrw",
+      "IAND": "hMDGjJB",
+      "LAND": "RWzlyBM",
+      "IOR": "MhYCEQA",
+      "LOR": "SnGQcoe",
+      "IXOR": "jdAlfwU",
+      "LXOR": "HyHDrft",
+      "IINC": "WyTyfwv",
+      "I2L": "LZwoWul",
+      "I2F": "lgcxgNG",
+      "I2D": "lTxrRho",
+      "L2I": "sFgIUyd",
+      "L2F": "NIIWldI",
+      "L2D": "mLeABrh",
+      "F2I": "IhQBACI",
+      "F2L": "bUQJpaX",
+      "F2D": "PZSbiAr",
+      "D2I": "YMPzChC",
+      "D2L": "gkKmAtv",
+      "D2F": "dbxNQuu",
+      "I2B": "KgXKlBj",
+      "I2C": "jxovDdv",
+      "I2S": "ODgIANc",
+      "LCMP": "qXfMTCr",
+      "FCMPL": "mhvIEmI",
+      "FCMPG": "ftIksaL",
+      "DCMPL": "kGwkEjI",
+      "DCMPG": "PdfmhdT",
+      "IFEQ": "RFjhVBk",
+      "IFNE": "vRtcJja",
+      "IFLT": "mcdNdyQ",
+      "IFGE": "sbbBDeB",
+      "IFGT": "nFnfSzz",
+      "IFLE": "lTzfIQv",
+      "IF_ICMPEQ": "dTNCpSa",
+      "IF_ICMPNE": "GprWfnL",
+      "IF_ICMPLT": "AkMJZkL",
+      "IF_ICMPGE": "GPeHlse",
+      "IF_ICMPGT": "trYbYPD",
+      "IF_ICMPLE": "aYatCMU",
+      "IF_ACMPEQ": "sFpeAUL",
+      "IF_ACMPNE": "szKSfeH",
+      "GOTO": "LwyJYtO",
+      "JSR": "zvwrjfa",
+      "RET": "RxtKcFL",
+      "TABLESWITCH": "CgjCZve",
+      "LOOKUPSWITCH": "lYGICEi",
+      "IRETURN": "UjUAohk",
+      "LRETURN": "FeYOJqF",
+      "FRETURN": "YeRqncs",
+      "DRETURN": "dnOWfYD",
+      "ARETURN": "qWReBfe",
+      "RETURN": "ahamJdw",
+      "GETSTATIC": "YBrjhUA",
+      "PUTSTATIC": "eUvixCp",
+      "GETFIELD": "nzBQoMY",
+      "PUTFIELD": "PpzjIeX",
+      "INVOKEVIRTUAL": "CLLNeyW",
+      "INVOKESPECIAL": "mrrVuGM",
+      "INVOKESTATIC": "BCLDYnU",
+      "INVOKEINTERFACE": "azLxwcP",
+      "INVOKEDYNAMIC": "jBJzXjh",
+      "NEW": "XRQeNjy",
+      "NEWARRAY": "xNCOclQ",
+      "ANEWARRAY": "LGSaHMZ",
+      "ARRAYLENGTH": "VZVaVoh",
+      "ATHROW": "dzNbUKP",
+      "CHECKCAST": "CWkyZhQ",
+      "INSTANCEOF": "sPtnSlZ",
+      "MONITORENTER": "kXdZhdS",
+      "MONITOREXIT": "uIrllqb",
+      "MULTIANEWARRAY": "IHmCdNv",
+      "IFNULL": "MWAPXLU",
+      "IFNONNULL": "iysyoJV"
+    },
+    "methods": {}
+  },
   "net/minecraft/client/resources/data/AnimationMetadataSection": {
     "actual": "tNMVnln",
     "fields": {
@@ -19625,6 +20549,26 @@
       "getFrameIndexSetFast()Lit/unimi/dsi/fastutil/ints/IntSet;": "gWjrZHr",
       "getFrameIndexSet()Ljava/util/Set;": "BCmcrbn",
       "getFrameIndexSet()Lit/unimi/dsi/fastutil/ints/IntSet;": "getFrameIndexSet"
+    }
+  },
+  "org/objectweb/asm/tree/InsnList$InsnListIterator": {
+    "actual": "TmBdxGQ",
+    "fields": {
+      "nextInsn": "kPRmjRd",
+      "previousInsn": "gWjrZHr",
+      "remove": "SJseNMa",
+      "this$0": "gWjrZHr"
+    },
+    "methods": {
+      "hasNext()Z": "hasNext",
+      "next()Ljava/lang/Object;": "next",
+      "remove()V": "remove",
+      "hasPrevious()Z": "hasPrevious",
+      "previous()Ljava/lang/Object;": "previous",
+      "nextIndex()I": "nextIndex",
+      "previousIndex()I": "previousIndex",
+      "add(Ljava/lang/Object;)V": "add",
+      "set(Ljava/lang/Object;)V": "set"
     }
   },
   "net/minecraft/world/chunk/IBlockStatePalette": {
@@ -21082,6 +22026,21 @@
       "processPacket(Lnet/minecraft/network/INetHandler;)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/TryCatchBlockNode": {
+    "actual": "WmpHxyH",
+    "fields": {
+      "start": "kPRmjRd",
+      "end": "LzYOZuP",
+      "handler": "SJseNMa",
+      "type": "nBvlYtT",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR"
+    },
+    "methods": {
+      "updateIndex(I)V": "jWHwdAN",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/model/ModelGuardian": {
     "actual": "LscCKRD",
     "fields": {
@@ -21509,6 +22468,70 @@
       "onItemUse(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/ClassReader": {
+    "actual": "hqfqNFg",
+    "fields": {
+      "SKIP_CODE": "QSqejhn",
+      "SKIP_DEBUG": "DzKRlHg",
+      "SKIP_FRAMES": "AXQBIJF",
+      "EXPAND_FRAMES": "Htdgaqp",
+      "EXPAND_ASM_INSNS": "ULtaRGT",
+      "INPUT_STREAM_DATA_CHUNK_SIZE": "HWSEEwv",
+      "header": "QnKCoha",
+      "classFileBuffer": "FHURYzE",
+      "cpInfoOffsets": "mWevQNi",
+      "constantUtf8Values": "rbNGnZf",
+      "constantDynamicValues": "gWjrZHr",
+      "bootstrapMethodOffsets": "qiloZLC",
+      "maxStringLength": "TqUzTqj"
+    },
+    "methods": {
+      "readStream(Ljava/io/InputStream;Z)[B": "gWjrZHr",
+      "getAccess()I": "mxjtscs",
+      "getClassName()Ljava/lang/String;": "hAbrDra",
+      "getSuperName()Ljava/lang/String;": "poRZMuf",
+      "getInterfaces()[Ljava/lang/String;": "oiiXgwP",
+      "accept(Lorg/objectweb/asm/ClassVisitor;I)V": "gWjrZHr",
+      "accept(Lorg/objectweb/asm/ClassVisitor;[Lorg/objectweb/asm/Attribute;I)V": "gWjrZHr",
+      "readModuleAttributes(Lorg/objectweb/asm/ClassVisitor;Lorg/objectweb/asm/Context;IILjava/lang/String;)V": "gWjrZHr",
+      "readRecordComponent(Lorg/objectweb/asm/ClassVisitor;Lorg/objectweb/asm/Context;I)I": "gWjrZHr",
+      "readField(Lorg/objectweb/asm/ClassVisitor;Lorg/objectweb/asm/Context;I)I": "kPRmjRd",
+      "readMethod(Lorg/objectweb/asm/ClassVisitor;Lorg/objectweb/asm/Context;I)I": "LzYOZuP",
+      "readCode(Lorg/objectweb/asm/MethodVisitor;Lorg/objectweb/asm/Context;I)V": "gWjrZHr",
+      "readLabel(I[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Label;": "gWjrZHr",
+      "createLabel(I[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Label;": "kPRmjRd",
+      "createDebugLabel(I[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "readTypeAnnotations(Lorg/objectweb/asm/MethodVisitor;Lorg/objectweb/asm/Context;IZ)[I": "gWjrZHr",
+      "getTypeAnnotationBytecodeOffset([II)I": "kPRmjRd",
+      "readTypeAnnotationTarget(Lorg/objectweb/asm/Context;I)I": "gWjrZHr",
+      "readParameterAnnotations(Lorg/objectweb/asm/MethodVisitor;Lorg/objectweb/asm/Context;IZ)V": "gWjrZHr",
+      "readElementValues(Lorg/objectweb/asm/AnnotationVisitor;IZ[C)I": "gWjrZHr",
+      "readElementValue(Lorg/objectweb/asm/AnnotationVisitor;ILjava/lang/String;[C)I": "gWjrZHr",
+      "computeImplicitFrame(Lorg/objectweb/asm/Context;)V": "gWjrZHr",
+      "readStackMapFrame(IZZLorg/objectweb/asm/Context;)I": "gWjrZHr",
+      "readVerificationTypeInfo(I[Ljava/lang/Object;I[C[Lorg/objectweb/asm/Label;)I": "gWjrZHr",
+      "getFirstAttributeOffset()I": "DQuCDMs",
+      "readBootstrapMethodsAttribute(I)[I": "UjBIMNN",
+      "readAttribute([Lorg/objectweb/asm/Attribute;Ljava/lang/String;II[CI[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Attribute;": "gWjrZHr",
+      "getItemCount()I": "SdDhwGf",
+      "getItem(I)I": "JAIESaY",
+      "getMaxStringLength()I": "RgRZVvj",
+      "readByte(I)I": "sLfACSd",
+      "readUnsignedShort(I)I": "fEblpSX",
+      "readShort(I)S": "gWjrZHr",
+      "readInt(I)I": "bIaORKD",
+      "readLong(I)J": "kPRmjRd",
+      "readUTF8(I[C)Ljava/lang/String;": "gWjrZHr",
+      "readUtf(I[C)Ljava/lang/String;": "kPRmjRd",
+      "readUtf(II[C)Ljava/lang/String;": "gWjrZHr",
+      "readStringish(I[C)Ljava/lang/String;": "LzYOZuP",
+      "readClass(I[C)Ljava/lang/String;": "BCmcrbn",
+      "readModule(I[C)Ljava/lang/String;": "SJseNMa",
+      "readPackage(I[C)Ljava/lang/String;": "xZcGKMl",
+      "readConstantDynamic(I[C)Lorg/objectweb/asm/ConstantDynamic;": "gWjrZHr",
+      "readConst(I[C)Ljava/lang/Object;": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/gui/inventory/GuiBeacon": {
     "actual": "yPrcbXV",
     "fields": {
@@ -21590,6 +22613,27 @@
     "methods": {
       "getFXLayer()I": "HnZskzl",
       "renderParticle(Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/entity/Entity;FFFFFF)V": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/tree/RecordComponentNode": {
+    "actual": "AbbBsjz",
+    "fields": {
+      "name": "gWjrZHr",
+      "descriptor": "mxjtscs",
+      "signature": "nWFwhEB",
+      "visibleAnnotations": "HtPaSly",
+      "invisibleAnnotations": "ouUzLwB",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR",
+      "attrs": "qsbwzLe"
+    },
+    "methods": {
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd",
+      "check(I)V": "wzFcXfC",
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/advancements/ICriterionInstance": {
@@ -21957,6 +23001,18 @@
       "cycleProperty(Ldev/xdark/clientapi/block/properties/Property;)Ldev/xdark/clientapi/block/state/BlockState;": "cycleProperty"
     }
   },
+  "org/objectweb/asm/tree/IincInsnNode": {
+    "actual": "VzoDDvA",
+    "fields": {
+      "var": "JzgEXfM",
+      "incr": "nvysnoQ"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/item/crafting/RecipesMapCloning": {
     "actual": "wQkyUQv",
     "fields": {},
@@ -21991,6 +23047,23 @@
       "size()I": "size",
       "isEmpty()Z": "isEmpty",
       "access$000(Lnet/minecraft/util/ClassInheritanceMultiMap;)Ljava/util/Map;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/Handler": {
+    "actual": "jQgffiw",
+    "fields": {
+      "startPc": "LzYOZuP",
+      "endPc": "BCmcrbn",
+      "handlerPc": "SJseNMa",
+      "catchType": "uSNrwLT",
+      "catchTypeDescriptor": "nBrfcgh",
+      "nextHandler": "gWjrZHr"
+    },
+    "methods": {
+      "removeRange(Lorg/objectweb/asm/Handler;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Handler;": "gWjrZHr",
+      "getExceptionTableLength(Lorg/objectweb/asm/Handler;)I": "gWjrZHr",
+      "getExceptionTableSize(Lorg/objectweb/asm/Handler;)I": "kPRmjRd",
+      "putExceptionTable(Lorg/objectweb/asm/Handler;Lorg/objectweb/asm/ByteVector;)V": "gWjrZHr"
     }
   },
   "net/minecraft/entity/EntityBodyHelper": {
@@ -22296,6 +23369,54 @@
     },
     "methods": {
       "say(Lnet/minecraft/util/text/ChatType;Lnet/minecraft/util/text/ITextComponent;)V": "kPRmjRd"
+    }
+  },
+  "org/objectweb/asm/tree/ClassNode": {
+    "actual": "OjYDSGH",
+    "fields": {
+      "version": "dIOAKVg",
+      "access": "jPrihhU",
+      "name": "gWjrZHr",
+      "signature": "nWFwhEB",
+      "superName": "IBDNman",
+      "interfaces": "ScRPMjE",
+      "sourceFile": "VjlRZmj",
+      "sourceDebug": "HNiouvQ",
+      "module": "gWjrZHr",
+      "outerClass": "lIUbQsN",
+      "outerMethod": "vgEXdsi",
+      "outerMethodDesc": "BgXoMIm",
+      "visibleAnnotations": "HtPaSly",
+      "invisibleAnnotations": "ouUzLwB",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR",
+      "attrs": "qsbwzLe",
+      "innerClasses": "UjKiIsE",
+      "nestHostClass": "OTqkAEg",
+      "nestMembers": "xQLdsTd",
+      "permittedSubclasses": "hTGFbSb",
+      "recordComponents": "YiTubgM",
+      "fields": "iVDglFl",
+      "methods": "UTySNiC"
+    },
+    "methods": {
+      "visit(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitSource(Ljava/lang/String;Ljava/lang/String;)V": "BCmcrbn",
+      "visitModule(Ljava/lang/String;ILjava/lang/String;)Lorg/objectweb/asm/ModuleVisitor;": "gWjrZHr",
+      "visitNestHost(Ljava/lang/String;)V": "wOfoeCE",
+      "visitOuterClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "kPRmjRd",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitNestMember(Ljava/lang/String;)V": "scWGGoF",
+      "visitPermittedSubclass(Ljava/lang/String;)V": "EhSNmpn",
+      "visitInnerClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V": "gWjrZHr",
+      "visitRecordComponent(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/RecordComponentVisitor;": "gWjrZHr",
+      "visitField(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/objectweb/asm/FieldVisitor;": "gWjrZHr",
+      "visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;": "visitMethod",
+      "visitEnd()V": "visitEnd",
+      "check(I)V": "wzFcXfC",
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/network/status/client/CPacketPing": {
@@ -23027,6 +24148,14 @@
       "createBlockState()Lnet/minecraft/block/state/BlockStateContainer;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/TypeAnnotationNode": {
+    "actual": "VGXuQVD",
+    "fields": {
+      "typeRef": "eSmnBgR",
+      "typePath": "kPRmjRd"
+    },
+    "methods": {}
+  },
   "net/minecraft/block/BlockColored": {
     "actual": "jEnnCVg",
     "fields": {
@@ -23555,6 +24684,17 @@
       "drawButton(Lnet/minecraft/client/Minecraft;IIF)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/ModuleRequireNode": {
+    "actual": "ZNqOdAM",
+    "fields": {
+      "module": "IBjPgEp",
+      "access": "jPrihhU",
+      "version": "rbNGnZf"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/ModuleVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/particle/ParticleMobAppearance": {
     "actual": "PpzjIeX",
     "fields": {
@@ -24022,6 +25162,74 @@
       "onItemUse(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/MethodNode": {
+    "actual": "tPjEefM",
+    "fields": {
+      "access": "jPrihhU",
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp",
+      "signature": "nWFwhEB",
+      "exceptions": "Qcwvmee",
+      "parameters": "IoCWgIq",
+      "visibleAnnotations": "HtPaSly",
+      "invisibleAnnotations": "ouUzLwB",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR",
+      "attrs": "qsbwzLe",
+      "annotationDefault": "WjCdIbC",
+      "visibleAnnotableParameterCount": "HrSpxIz",
+      "visibleParameterAnnotations": "gWjrZHr",
+      "invisibleAnnotableParameterCount": "kmmpcbJ",
+      "invisibleParameterAnnotations": "kPRmjRd",
+      "instructions": "kPRmjRd",
+      "tryCatchBlocks": "Pgitowh",
+      "maxStack": "YOhlZmI",
+      "maxLocals": "dkxYHIB",
+      "localVariables": "KABNtKu",
+      "visibleLocalVariableAnnotations": "HpYnXeL",
+      "invisibleLocalVariableAnnotations": "FyaSJGd",
+      "visited": "xMPtYdQ"
+    },
+    "methods": {
+      "visitParameter(Ljava/lang/String;I)V": "UjBIMNN",
+      "visitAnnotationDefault()Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotableParameterCount(IZ)V": "MoiEanH",
+      "visitParameterAnnotation(ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitCode()V": "wuMPZig",
+      "visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V": "gWjrZHr",
+      "visitInsn(I)V": "xZcGKMl",
+      "visitIntInsn(II)V": "WJMXEpy",
+      "visitVarInsn(II)V": "EOAkdeh",
+      "visitTypeInsn(ILjava/lang/String;)V": "gWjrZHr",
+      "visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "visitFieldInsn",
+      "visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V": "kPRmjRd",
+      "visitInvokeDynamicInsn(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V": "visitInvokeDynamicInsn",
+      "visitJumpInsn(ILorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLabel(Lorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitLdcInsn(Ljava/lang/Object;)V": "gWjrZHr",
+      "visitIincInsn(II)V": "fyKGmzx",
+      "visitTableSwitchInsn(IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLookupSwitchInsn(Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitMultiANewArrayInsn(Ljava/lang/String;I)V": "gWjrZHr",
+      "visitInsnAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "kPRmjRd",
+      "visitTryCatchBlock(Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Ljava/lang/String;)V": "gWjrZHr",
+      "visitTryCatchAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "LzYOZuP",
+      "visitLocalVariable(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V": "gWjrZHr",
+      "visitLocalVariableAnnotation(ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;[ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitLineNumber(ILorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitMaxs(II)V": "visitMaxs",
+      "visitEnd()V": "visitEnd",
+      "getLabelNode(Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/tree/LabelNode;": "gWjrZHr",
+      "getLabelNodes([Lorg/objectweb/asm/Label;)[Lorg/objectweb/asm/tree/LabelNode;": "gWjrZHr",
+      "getLabelNodes([Ljava/lang/Object;)[Ljava/lang/Object;": "gWjrZHr",
+      "check(I)V": "wzFcXfC",
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/optifine/BetterGrass": {
     "actual": "TAANCNt",
     "fields": {
@@ -24099,6 +25307,28 @@
     "fields": {},
     "methods": {
       "onItemUse(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/Attribute": {
+    "actual": "qfyMZTi",
+    "fields": {
+      "type": "GLQaxHD",
+      "content": "uVbIQqE",
+      "nextAttribute": "gWjrZHr"
+    },
+    "methods": {
+      "isUnknown()Z": "atiTRqC",
+      "isCodeAttribute()Z": "Ksbndjd",
+      "getLabels()[Lorg/objectweb/asm/Label;": "gWjrZHr",
+      "read(Lorg/objectweb/asm/ClassReader;II[CI[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Attribute;": "gWjrZHr",
+      "write(Lorg/objectweb/asm/ClassWriter;[BIII)Lorg/objectweb/asm/ByteVector;": "gWjrZHr",
+      "getAttributeCount()I": "wHYxnZy",
+      "computeAttributesSize(Lorg/objectweb/asm/SymbolTable;)I": "gWjrZHr",
+      "computeAttributesSize(Lorg/objectweb/asm/SymbolTable;[BIII)I": "gWjrZHr",
+      "computeAttributesSize(Lorg/objectweb/asm/SymbolTable;II)I": "gWjrZHr",
+      "putAttributes(Lorg/objectweb/asm/SymbolTable;Lorg/objectweb/asm/ByteVector;)V": "gWjrZHr",
+      "putAttributes(Lorg/objectweb/asm/SymbolTable;[BIIILorg/objectweb/asm/ByteVector;)V": "gWjrZHr",
+      "putAttributes(Lorg/objectweb/asm/SymbolTable;IILorg/objectweb/asm/ByteVector;)V": "gWjrZHr"
     }
   },
   "dev/declario/entity/Bee": {
@@ -24310,6 +25540,102 @@
       "cloneEntry()Ljava/lang/Object;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/SymbolTable": {
+    "actual": "pagsXQm",
+    "fields": {
+      "classWriter": "gWjrZHr",
+      "sourceClassReader": "gWjrZHr",
+      "majorVersion": "RfToCEQ",
+      "className": "xeoMALA",
+      "entryCount": "FbhPXoI",
+      "entries": "gWjrZHr",
+      "constantPoolCount": "VXydeUB",
+      "constantPool": "wuMPZig",
+      "bootstrapMethodCount": "cqODFfT",
+      "bootstrapMethods": "vmAlWfp",
+      "typeCount": "XeHqxjD",
+      "typeTable": "kPRmjRd"
+    },
+    "methods": {
+      "copyBootstrapMethods(Lorg/objectweb/asm/ClassReader;[C)V": "gWjrZHr",
+      "getSource()Lorg/objectweb/asm/ClassReader;": "gWjrZHr",
+      "getMajorVersion()I": "WazsnZc",
+      "getClassName()Ljava/lang/String;": "hAbrDra",
+      "setMajorVersionAndClassName(ILjava/lang/String;)I": "LzYOZuP",
+      "getConstantPoolCount()I": "hxeuhVs",
+      "getConstantPoolLength()I": "LIxxUyv",
+      "putConstantPool(Lorg/objectweb/asm/ByteVector;)V": "SJseNMa",
+      "computeBootstrapMethodsSize()I": "kkMbsXh",
+      "putBootstrapMethods(Lorg/objectweb/asm/ByteVector;)V": "xZcGKMl",
+      "get(I)Lorg/objectweb/asm/SymbolTable$Entry;": "gWjrZHr",
+      "put(Lorg/objectweb/asm/SymbolTable$Entry;)Lorg/objectweb/asm/SymbolTable$Entry;": "gWjrZHr",
+      "add(Lorg/objectweb/asm/SymbolTable$Entry;)V": "gWjrZHr",
+      "addConstant(Ljava/lang/Object;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantClass(Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantFieldref(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantMethodref(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantMemberReference(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/SymbolTable$Entry;": "gWjrZHr",
+      "addConstantMemberReference(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "gWjrZHr",
+      "addConstantString(Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "kPRmjRd",
+      "addConstantInteger(I)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantFloat(F)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantIntegerOrFloat(II)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantIntegerOrFloat(III)V": "YixeWRi",
+      "addConstantLong(J)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantDouble(D)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantLongOrDouble(IJ)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantLongOrDouble(IIJ)V": "kPRmjRd",
+      "addConstantNameAndType(Ljava/lang/String;Ljava/lang/String;)I": "BCmcrbn",
+      "addConstantNameAndType(ILjava/lang/String;Ljava/lang/String;)V": "kPRmjRd",
+      "addConstantUtf8(Ljava/lang/String;)I": "HVivheQ",
+      "addConstantUtf8(ILjava/lang/String;)V": "BCmcrbn",
+      "addConstantMethodHandle(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantMethodHandle(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "kPRmjRd",
+      "addConstantMethodType(Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "LzYOZuP",
+      "addConstantDynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantInvokeDynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)Lorg/objectweb/asm/Symbol;": "kPRmjRd",
+      "addConstantDynamicOrInvokeDynamicReference(ILjava/lang/String;Ljava/lang/String;I)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantDynamicOrInvokeDynamicReference(IILjava/lang/String;Ljava/lang/String;I)V": "gWjrZHr",
+      "addConstantModule(Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "BCmcrbn",
+      "addConstantPackage(Ljava/lang/String;)Lorg/objectweb/asm/Symbol;": "SJseNMa",
+      "addConstantUtf8Reference(ILjava/lang/String;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addConstantUtf8Reference(IILjava/lang/String;)V": "gWjrZHr",
+      "addBootstrapMethod(Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "addBootstrapMethod(III)Lorg/objectweb/asm/Symbol;": "gWjrZHr",
+      "getType(I)Lorg/objectweb/asm/Symbol;": "kPRmjRd",
+      "addType(Ljava/lang/String;)I": "DpLHUuB",
+      "addUninitializedType(Ljava/lang/String;I)I": "obWbjzA",
+      "addMergedType(II)I": "ptEwGeo",
+      "addTypeInternal(Lorg/objectweb/asm/SymbolTable$Entry;)I": "gWjrZHr",
+      "hash(II)I": "eNyELuG",
+      "hash(IJ)I": "gWjrZHr",
+      "hash(ILjava/lang/String;)I": "BCmcrbn",
+      "hash(ILjava/lang/String;I)I": "gWjrZHr",
+      "hash(ILjava/lang/String;Ljava/lang/String;)I": "gWjrZHr",
+      "hash(ILjava/lang/String;Ljava/lang/String;I)I": "gWjrZHr",
+      "hash(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)I": "kPRmjRd",
+      "hash(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)I": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/TypePath": {
+    "actual": "ZjJYbkY",
+    "fields": {
+      "ARRAY_ELEMENT": "AEzyIKj",
+      "INNER_TYPE": "njSTnQK",
+      "WILDCARD_BOUND": "lGCBrhY",
+      "TYPE_ARGUMENT": "zTPXmfG",
+      "typePathContainer": "caCwAvT",
+      "typePathOffset": "HMmTBzt"
+    },
+    "methods": {
+      "getLength()I": "MhQwnvY",
+      "getStep(I)I": "SQsQYjb",
+      "getStepArgument(I)I": "wEIbAWV",
+      "fromString(Ljava/lang/String;)Lorg/objectweb/asm/TypePath;": "gWjrZHr",
+      "toString()Ljava/lang/String;": "toString",
+      "put(Lorg/objectweb/asm/TypePath;Lorg/objectweb/asm/ByteVector;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/gui/chat/NormalChatListener": {
     "actual": "PIidnqS",
     "fields": {
@@ -24412,6 +25738,16 @@
     "methods": {
       "equals(Ljava/lang/Object;)Z": "equals",
       "hashCode()I": "hashCode"
+    }
+  },
+  "org/objectweb/asm/tree/ModuleProvideNode": {
+    "actual": "fvPcDte",
+    "fields": {
+      "service": "khCnUnL",
+      "providers": "HPBtmym"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/ModuleVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/block/state/IBlockBehaviors": {
@@ -24742,6 +26078,18 @@
       "getItemStackDisplayName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;": "LzYOZuP"
     }
   },
+  "org/objectweb/asm/tree/TypeInsnNode": {
+    "actual": "HpfisBn",
+    "fields": {
+      "desc": "vmAlWfp"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/entity/projectile/EntityEgg": {
     "actual": "YBsHZeY",
     "fields": {},
@@ -24910,6 +26258,21 @@
       "createContainer(Lnet/minecraft/entity/player/InventoryPlayer;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/inventory/Container;": "gWjrZHr",
       "getItems()Lnet/minecraft/util/NonNullList;": "BCmcrbn",
       "isChristmas()Z": "dcORgKy"
+    }
+  },
+  "org/objectweb/asm/tree/MethodInsnNode": {
+    "actual": "IcdNBNO",
+    "fields": {
+      "owner": "xiOHUEZ",
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp",
+      "itf": "vyWmvNT"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
     }
   },
   "net/minecraft/block/custom/HorizontalBlock": {
@@ -25722,6 +27085,18 @@
       "setSeed(J)V": "setSeed"
     }
   },
+  "org/objectweb/asm/tree/InnerClassNode": {
+    "actual": "WSmjECA",
+    "fields": {
+      "name": "gWjrZHr",
+      "outerName": "hjxfofG",
+      "innerName": "hTmrFjN",
+      "access": "jPrihhU"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/optifine/gui/GuiQualitySettingsOF": {
     "actual": "byVwFcm",
     "fields": {
@@ -26481,6 +27856,18 @@
       "getMacroHeader(Ljava/lang/String;)Ljava/lang/String;": "RdsVLgC"
     }
   },
+  "org/objectweb/asm/tree/VarInsnNode": {
+    "actual": "hOWiERh",
+    "fields": {
+      "var": "JzgEXfM"
+    },
+    "methods": {
+      "setOpcode(I)V": "euzCBJD",
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/enchantment/EnchantmentDurability": {
     "actual": "mziqfXX",
     "fields": {},
@@ -26532,6 +27919,33 @@
       "getAttackDamage()F": "getAttackDamage",
       "getToolMaterial()Lnet/minecraft/item/Item$ToolMaterial;": "gWjrZHr",
       "getToolMaterial()Ldev/xdark/clientapi/item/ToolMaterial;": "getToolMaterial"
+    }
+  },
+  "org/objectweb/asm/signature/SignatureVisitor": {
+    "actual": "psOxofT",
+    "fields": {
+      "EXTENDS": "gWjrZHr",
+      "SUPER": "kPRmjRd",
+      "INSTANCEOF": "LzYOZuP",
+      "api": "qRiUQrO"
+    },
+    "methods": {
+      "visitFormalTypeParameter(Ljava/lang/String;)V": "visitFormalTypeParameter",
+      "visitClassBound()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitClassBound",
+      "visitInterfaceBound()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitInterfaceBound",
+      "visitSuperclass()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitSuperclass",
+      "visitInterface()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitInterface",
+      "visitParameterType()Lorg/objectweb/asm/signature/SignatureVisitor;": "gWjrZHr",
+      "visitReturnType()Lorg/objectweb/asm/signature/SignatureVisitor;": "kPRmjRd",
+      "visitExceptionType()Lorg/objectweb/asm/signature/SignatureVisitor;": "LzYOZuP",
+      "visitBaseType(C)V": "visitBaseType",
+      "visitTypeVariable(Ljava/lang/String;)V": "visitTypeVariable",
+      "visitArrayType()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitArrayType",
+      "visitClassType(Ljava/lang/String;)V": "visitClassType",
+      "visitInnerClassType(Ljava/lang/String;)V": "visitInnerClassType",
+      "visitTypeArgument()V": "visitTypeArgument",
+      "visitTypeArgument(C)Lorg/objectweb/asm/signature/SignatureVisitor;": "visitTypeArgument",
+      "visitEnd()V": "visitEnd"
     }
   },
   "net/minecraft/client/resources/ResourcePackRepository$4$1$1": {
@@ -28865,6 +30279,13 @@
       "toString()Ljava/lang/String;": "toString"
     }
   },
+  "org/objectweb/asm/tree/UnsupportedClassVersionException": {
+    "actual": "nsIKocC",
+    "fields": {
+      "serialVersionUID": "ClszwEW"
+    },
+    "methods": {}
+  },
   "net/minecraft/block/BlockOre": {
     "actual": "yeiAuZH",
     "fields": {},
@@ -29057,6 +30478,20 @@
       "setEquipmentBasedOnDifficulty(Lnet/minecraft/world/DifficultyInstance;)V": "gWjrZHr",
       "setEnchantmentBasedOnDifficulty(Lnet/minecraft/world/DifficultyInstance;)V": "kPRmjRd",
       "getEyeHeight()F": "getEyeHeight"
+    }
+  },
+  "org/objectweb/asm/Attribute$Set": {
+    "actual": "WMOkpgq",
+    "fields": {
+      "SIZE_INCREMENT": "CoLkdky",
+      "size": "size",
+      "data": "gWjrZHr"
+    },
+    "methods": {
+      "addAttributes(Lorg/objectweb/asm/Attribute;)V": "gWjrZHr",
+      "toArray()[Lorg/objectweb/asm/Attribute;": "gWjrZHr",
+      "contains(Lorg/objectweb/asm/Attribute;)Z": "gWjrZHr",
+      "add(Lorg/objectweb/asm/Attribute;)V": "kPRmjRd"
     }
   },
   "net/minecraft/client/renderer/entity/RenderEndermite": {
@@ -29348,6 +30783,20 @@
       "canEatGrass()Z": "eWeMAtS"
     }
   },
+  "org/objectweb/asm/tree/LocalVariableNode": {
+    "actual": "PnIYMes",
+    "fields": {
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp",
+      "signature": "nWFwhEB",
+      "start": "kPRmjRd",
+      "end": "LzYOZuP",
+      "index": "kaDvjFV"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/block/BlockCompressedPowered": {
     "actual": "vMzfzhk",
     "fields": {},
@@ -29559,6 +31008,16 @@
     },
     "methods": {
       "initArmor()V": "IBDNman"
+    }
+  },
+  "org/objectweb/asm/tree/ParameterNode": {
+    "actual": "LlhzFxm",
+    "fields": {
+      "name": "gWjrZHr",
+      "access": "jPrihhU"
+    },
+    "methods": {
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/client/resources/ResourcePackRepository$Entry": {
@@ -29898,6 +31357,30 @@
       "setOnFire(Z)V": "AMLIPnh"
     }
   },
+  "org/objectweb/asm/ClassVisitor": {
+    "actual": "FzmdzAK",
+    "fields": {
+      "api": "IsvJitm",
+      "cv": "kPRmjRd"
+    },
+    "methods": {
+      "visit(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitSource(Ljava/lang/String;Ljava/lang/String;)V": "BCmcrbn",
+      "visitModule(Ljava/lang/String;ILjava/lang/String;)Lorg/objectweb/asm/ModuleVisitor;": "gWjrZHr",
+      "visitNestHost(Ljava/lang/String;)V": "wOfoeCE",
+      "visitOuterClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "kPRmjRd",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitNestMember(Ljava/lang/String;)V": "scWGGoF",
+      "visitPermittedSubclass(Ljava/lang/String;)V": "EhSNmpn",
+      "visitInnerClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V": "gWjrZHr",
+      "visitRecordComponent(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/RecordComponentVisitor;": "gWjrZHr",
+      "visitField(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/objectweb/asm/FieldVisitor;": "gWjrZHr",
+      "visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;": "visitMethod",
+      "visitEnd()V": "visitEnd"
+    }
+  },
   "net/diamondden/ndrs/NetworkDiagnosticsReportSystem$DiagnosticTarget": {
     "actual": "KNZmrbo",
     "fields": {},
@@ -29998,6 +31481,15 @@
       "processInteract(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Z": "kPRmjRd",
       "hasIgnited()Z": "KrHhkfC",
       "ignite()V": "bqeiaHv"
+    }
+  },
+  "org/objectweb/asm/tree/MethodNode$1": {
+    "actual": "OOGknVz",
+    "fields": {
+      "this$0": "gWjrZHr"
+    },
+    "methods": {
+      "add(Ljava/lang/Object;)Z": "add"
     }
   },
   "net/diamondden/metrics/MetricNode": {
@@ -30691,6 +32183,20 @@
       "read(J)V": "vmAlWfp"
     }
   },
+  "org/objectweb/asm/tree/InvokeDynamicInsnNode": {
+    "actual": "TblCGnD",
+    "fields": {
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp",
+      "bsm": "kPRmjRd",
+      "bsmArgs": "obWbjzA"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/client/renderer/block/model/SimpleBakedModel$Builder": {
     "actual": "fUXIHxX",
     "fields": {
@@ -30796,6 +32302,27 @@
     "actual": "UmzIrms",
     "fields": {},
     "methods": {}
+  },
+  "org/objectweb/asm/ConstantDynamic": {
+    "actual": "VRghlkb",
+    "fields": {
+      "name": "wHYxnZy",
+      "descriptor": "mxjtscs",
+      "bootstrapMethod": "gWjrZHr",
+      "bootstrapMethodArguments": "xZcGKMl"
+    },
+    "methods": {
+      "getName()Ljava/lang/String;": "getName",
+      "getDescriptor()Ljava/lang/String;": "TRDTkMx",
+      "getBootstrapMethod()Lorg/objectweb/asm/Handle;": "gWjrZHr",
+      "getBootstrapMethodArgumentCount()I": "ZvaNMgo",
+      "getBootstrapMethodArgument(I)Ljava/lang/Object;": "SJseNMa",
+      "getBootstrapMethodArgumentsUnsafe()[Ljava/lang/Object;": "LzYOZuP",
+      "getSize()I": "getSize",
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "hashCode()I": "hashCode",
+      "toString()Ljava/lang/String;": "toString"
+    }
   },
   "net/diamondden/ndrs/NetworkDiagnosticsReportSystem$Report": {
     "actual": "bBIHIxp",
@@ -31387,6 +32914,24 @@
       "$SwitchMap$net$minecraft$util$EnumFacing": "BCNDQAL"
     },
     "methods": {}
+  },
+  "org/objectweb/asm/tree/Util": {
+    "actual": "mtXOQnD",
+    "fields": {},
+    "methods": {
+      "add(Ljava/util/List;Ljava/lang/Object;)Ljava/util/List;": "gWjrZHr",
+      "asArrayList(I)Ljava/util/List;": "BCmcrbn",
+      "asArrayList([Ljava/lang/Object;)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([B)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([Z)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([S)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([C)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([I)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([F)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([J)Ljava/util/List;": "gWjrZHr",
+      "asArrayList([D)Ljava/util/List;": "gWjrZHr",
+      "asArrayList(I[Ljava/lang/Object;)Ljava/util/List;": "gWjrZHr"
+    }
   },
   "net/minecraft/entity/monster/EntityVex$AIMoveControl": {
     "actual": "dkqPKPr",
@@ -32949,6 +34494,41 @@
     },
     "methods": {}
   },
+  "org/objectweb/asm/tree/InsnList": {
+    "actual": "gxqOUBA",
+    "fields": {
+      "size": "size",
+      "firstInsn": "LzYOZuP",
+      "lastInsn": "BCmcrbn",
+      "cache": "gWjrZHr"
+    },
+    "methods": {
+      "size()I": "size",
+      "getFirst()Lorg/objectweb/asm/tree/AbstractInsnNode;": "getFirst",
+      "getLast()Lorg/objectweb/asm/tree/AbstractInsnNode;": "getLast",
+      "get(I)Lorg/objectweb/asm/tree/AbstractInsnNode;": "get",
+      "contains(Lorg/objectweb/asm/tree/AbstractInsnNode;)Z": "contains",
+      "indexOf(Lorg/objectweb/asm/tree/AbstractInsnNode;)I": "indexOf",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "iterator()Ljava/util/ListIterator;": "iterator",
+      "iterator(I)Ljava/util/ListIterator;": "iterator",
+      "toArray()[Lorg/objectweb/asm/tree/AbstractInsnNode;": "toArray",
+      "set(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "set",
+      "add(Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "add",
+      "add(Lorg/objectweb/asm/tree/InsnList;)V": "add",
+      "insert(Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "insert",
+      "insert(Lorg/objectweb/asm/tree/InsnList;)V": "insert",
+      "insert(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "insert",
+      "insert(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/InsnList;)V": "insert",
+      "insertBefore(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "insertBefore",
+      "insertBefore(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/InsnList;)V": "insertBefore",
+      "remove(Lorg/objectweb/asm/tree/AbstractInsnNode;)V": "remove",
+      "removeAll(Z)V": "nAeaguS",
+      "clear()V": "clear",
+      "resetLabels()V": "resetLabels",
+      "iterator()Ljava/util/Iterator;": "iterator"
+    }
+  },
   "net/minecraft/item/ItemSpade": {
     "actual": "GXhFPDS",
     "fields": {
@@ -33023,6 +34603,32 @@
     "fields": {},
     "methods": {
       "getModelLocation(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;": "BCmcrbn"
+    }
+  },
+  "org/objectweb/asm/tree/ModuleNode": {
+    "actual": "qyosvXn",
+    "fields": {
+      "name": "gWjrZHr",
+      "access": "jPrihhU",
+      "version": "rbNGnZf",
+      "mainClass": "MkUJudZ",
+      "packages": "ZSEnONK",
+      "requires": "KbJgkYe",
+      "exports": "XagrjHN",
+      "opens": "BwSfOKn",
+      "uses": "yoXDBCS",
+      "provides": "EtwsEmX"
+    },
+    "methods": {
+      "visitMainClass(Ljava/lang/String;)V": "nNTPpMJ",
+      "visitPackage(Ljava/lang/String;)V": "ELrkFvi",
+      "visitRequire(Ljava/lang/String;ILjava/lang/String;)V": "gWjrZHr",
+      "visitExport(Ljava/lang/String;I[Ljava/lang/String;)V": "gWjrZHr",
+      "visitOpen(Ljava/lang/String;I[Ljava/lang/String;)V": "kPRmjRd",
+      "visitUse(Ljava/lang/String;)V": "jTSZHwx",
+      "visitProvide(Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitEnd()V": "visitEnd",
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr"
     }
   },
   "net/minecraft/block/BlockCocoa": {
@@ -33140,6 +34746,29 @@
       "setBaseAirFriction(F)V": "rOaRXtk"
     }
   },
+  "org/objectweb/asm/tree/FieldNode": {
+    "actual": "YyNqrNQ",
+    "fields": {
+      "access": "jPrihhU",
+      "name": "gWjrZHr",
+      "desc": "vmAlWfp",
+      "signature": "nWFwhEB",
+      "value": "obWbjzA",
+      "visibleAnnotations": "HtPaSly",
+      "invisibleAnnotations": "ouUzLwB",
+      "visibleTypeAnnotations": "UePMOHf",
+      "invisibleTypeAnnotations": "iCzNuIR",
+      "attrs": "qsbwzLe"
+    },
+    "methods": {
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitEnd()V": "visitEnd",
+      "check(I)V": "wzFcXfC",
+      "accept(Lorg/objectweb/asm/ClassVisitor;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/tileentity/TileEntityPiston$2": {
     "actual": "lsrMKzx",
     "fields": {
@@ -33147,6 +34776,20 @@
       "$SwitchMap$net$minecraft$util$EnumFacing": "FrifavS"
     },
     "methods": {}
+  },
+  "org/objectweb/asm/tree/TableSwitchInsnNode": {
+    "actual": "ZoRwMEh",
+    "fields": {
+      "min": "rXAJEvQ",
+      "max": "muzzVNN",
+      "dflt": "BCmcrbn",
+      "labels": "kcVZOtm"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
   },
   "net/minecraft/client/renderer/BlockFluidRenderer": {
     "actual": "FbhPXoI",
@@ -33173,6 +34816,19 @@
     "actual": "AzqaptU",
     "fields": {},
     "methods": {}
+  },
+  "org/objectweb/asm/tree/LabelNode": {
+    "actual": "AUfyqUT",
+    "fields": {
+      "value": "kcVZOtm"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "getLabel()Lorg/objectweb/asm/Label;": "kPRmjRd",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr",
+      "resetLabel()V": "ELqiosB"
+    }
   },
   "net/minecraft/network/login/server/SPacketEnableCompression": {
     "actual": "LKoZIWb",
@@ -35063,6 +36719,15 @@
     "fields": {},
     "methods": {}
   },
+  "org/objectweb/asm/tree/InsnNode": {
+    "actual": "DLBFnRM",
+    "fields": {},
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/block/BlockEndRod$1": {
     "actual": "VKHayiw",
     "fields": {
@@ -35610,6 +37275,19 @@
       "render(Lnet/minecraft/tileentity/TileEntity;DDDFIF)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/tree/LookupSwitchInsnNode": {
+    "actual": "yQvsfMX",
+    "fields": {
+      "dflt": "BCmcrbn",
+      "keys": "AgzNGTM",
+      "labels": "kcVZOtm"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
+    }
+  },
   "net/minecraft/entity/IEntityOwnable": {
     "actual": "tQSBLqi",
     "fields": {},
@@ -35631,6 +37309,14 @@
     "methods": {
       "createParticle(ILnet/minecraft/world/World;DDDDDD[I)Lnet/minecraft/client/particle/Particle;": "gWjrZHr"
     }
+  },
+  "org/objectweb/asm/SymbolTable$Entry": {
+    "actual": "XyZNRYN",
+    "fields": {
+      "hashCode": "qSgHEbd",
+      "next": "gWjrZHr"
+    },
+    "methods": {}
   },
   "net/minecraft/block/BlockVine$1": {
     "actual": "SPeATyy",
@@ -35959,6 +37645,18 @@
       "getWorldRendererByLayer(Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/client/renderer/BufferBuilder;": "gWjrZHr",
       "getWorldRendererByLayerId(I)Lnet/minecraft/client/renderer/BufferBuilder;": "gWjrZHr",
       "getWorldRenderers()[Lnet/minecraft/client/renderer/BufferBuilder;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/tree/MultiANewArrayInsnNode": {
+    "actual": "pKXSnzi",
+    "fields": {
+      "desc": "vmAlWfp",
+      "dims": "eMpPPrL"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
     }
   },
   "net/optifine/util/ResUtils$ZipFile0": {
@@ -38190,6 +39888,20 @@
     },
     "methods": {}
   },
+  "org/objectweb/asm/tree/FrameNode": {
+    "actual": "UORGAOL",
+    "fields": {
+      "type": "aMNpdBH",
+      "local": "DhzDYzn",
+      "stack": "VzwKBts"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr",
+      "asArray(Ljava/util/List;)[Ljava/lang/Object;": "gWjrZHr"
+    }
+  },
   "net/minecraft/block/BlockEnchantmentTable": {
     "actual": "OqKHTag",
     "fields": {
@@ -40002,6 +41714,94 @@
       "processPacket(Lnet/minecraft/network/INetHandler;)V": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/Frame": {
+    "actual": "XOvIyLP",
+    "fields": {
+      "SAME_FRAME": "MutZbSu",
+      "SAME_LOCALS_1_STACK_ITEM_FRAME": "NYqSfmA",
+      "RESERVED": "hDCQrQT",
+      "SAME_LOCALS_1_STACK_ITEM_FRAME_EXTENDED": "UUvZXKn",
+      "CHOP_FRAME": "pakxtZP",
+      "SAME_FRAME_EXTENDED": "QwpFdAJ",
+      "APPEND_FRAME": "XPWMgjS",
+      "FULL_FRAME": "hiptBzS",
+      "ITEM_TOP": "znHVhpO",
+      "ITEM_INTEGER": "xfupzMf",
+      "ITEM_FLOAT": "kdfmqSy",
+      "ITEM_DOUBLE": "TLgwZtC",
+      "ITEM_LONG": "iTgiwXI",
+      "ITEM_NULL": "zUaQaCW",
+      "ITEM_UNINITIALIZED_THIS": "FeQhlJG",
+      "ITEM_OBJECT": "JEKKwfr",
+      "ITEM_UNINITIALIZED": "prABrll",
+      "ITEM_ASM_BOOLEAN": "tISvFRG",
+      "ITEM_ASM_BYTE": "OWBSzbV",
+      "ITEM_ASM_CHAR": "zHCokbx",
+      "ITEM_ASM_SHORT": "wvhLfFd",
+      "DIM_SIZE": "HBwQAux",
+      "KIND_SIZE": "sKYUMHS",
+      "FLAGS_SIZE": "yzdqqbv",
+      "VALUE_SIZE": "dlMLtxf",
+      "DIM_SHIFT": "XzNfafs",
+      "KIND_SHIFT": "PLdPSDb",
+      "FLAGS_SHIFT": "nxFMNEg",
+      "DIM_MASK": "MghtEin",
+      "KIND_MASK": "PVHWZjB",
+      "VALUE_MASK": "RMpUVQw",
+      "ARRAY_OF": "ynkfPOt",
+      "ELEMENT_OF": "SDmUVDP",
+      "CONSTANT_KIND": "wrfmFgi",
+      "REFERENCE_KIND": "bomNPMr",
+      "UNINITIALIZED_KIND": "hEfXShg",
+      "LOCAL_KIND": "GyilKGq",
+      "STACK_KIND": "jllvGvE",
+      "TOP_IF_LONG_OR_DOUBLE_FLAG": "eKeVaud",
+      "TOP": "MtaUxLZ",
+      "BOOLEAN": "JjxHtON",
+      "BYTE": "TXNtlAs",
+      "CHAR": "QyGCSPB",
+      "SHORT": "qaFqUCa",
+      "INTEGER": "PceikMP",
+      "FLOAT": "HQiaZjx",
+      "LONG": "rOyIGVm",
+      "DOUBLE": "OkbwrTs",
+      "NULL": "xjNTUuH",
+      "UNINITIALIZED_THIS": "BfPeufZ",
+      "owner": "kPRmjRd",
+      "inputLocals": "wRTxzlr",
+      "inputStack": "rOSqBna",
+      "outputLocals": "aYZQzjE",
+      "outputStack": "UePMOHf",
+      "outputStackStart": "xZcGKMl",
+      "outputStackTop": "UjBIMNN",
+      "initializationCount": "UScBfUz",
+      "initializations": "iCzNuIR"
+    },
+    "methods": {
+      "copyFrom(Lorg/objectweb/asm/Frame;)V": "gWjrZHr",
+      "getAbstractTypeFromApiFormat(Lorg/objectweb/asm/SymbolTable;Ljava/lang/Object;)I": "gWjrZHr",
+      "getAbstractTypeFromInternalName(Lorg/objectweb/asm/SymbolTable;Ljava/lang/String;)I": "gWjrZHr",
+      "getAbstractTypeFromDescriptor(Lorg/objectweb/asm/SymbolTable;Ljava/lang/String;I)I": "gWjrZHr",
+      "setInputFrameFromDescriptor(Lorg/objectweb/asm/SymbolTable;ILjava/lang/String;I)V": "gWjrZHr",
+      "setInputFrameFromApiFormat(Lorg/objectweb/asm/SymbolTable;I[Ljava/lang/Object;I[Ljava/lang/Object;)V": "gWjrZHr",
+      "getInputStackSize()I": "sjatsfY",
+      "getLocal(I)I": "pmpUnlO",
+      "setLocal(II)V": "QAgrfHO",
+      "push(I)V": "apeJvbC",
+      "push(Lorg/objectweb/asm/SymbolTable;Ljava/lang/String;)V": "gWjrZHr",
+      "pop()I": "IGavfAH",
+      "pop(I)V": "hPkLrTu",
+      "pop(Ljava/lang/String;)V": "AMLIPnh",
+      "addInitializedType(I)V": "ZidqfbY",
+      "getInitializedType(Lorg/objectweb/asm/SymbolTable;I)I": "gWjrZHr",
+      "execute(IILorg/objectweb/asm/Symbol;Lorg/objectweb/asm/SymbolTable;)V": "gWjrZHr",
+      "getConcreteOutputType(II)I": "UlPizuc",
+      "merge(Lorg/objectweb/asm/SymbolTable;Lorg/objectweb/asm/Frame;I)Z": "gWjrZHr",
+      "merge(Lorg/objectweb/asm/SymbolTable;I[II)Z": "gWjrZHr",
+      "accept(Lorg/objectweb/asm/MethodWriter;)V": "gWjrZHr",
+      "putAbstractType(Lorg/objectweb/asm/SymbolTable;ILorg/objectweb/asm/ByteVector;)V": "gWjrZHr"
+    }
+  },
   "net/minecraft/block/BlockCrops": {
     "actual": "GLdUacM",
     "fields": {
@@ -40393,6 +42193,121 @@
       "setProjectionMatrix(Lorg/joml/Matrix4f;)V": "gWjrZHr",
       "render(F)V": "scWGGoF",
       "getShaderManager()Lnet/minecraft/client/shader/ShaderManager;": "gWjrZHr"
+    }
+  },
+  "org/objectweb/asm/MethodWriter": {
+    "actual": "CkMckTf",
+    "fields": {
+      "COMPUTE_NOTHING": "rmZHZXw",
+      "COMPUTE_MAX_STACK_AND_LOCAL": "CIRZpEF",
+      "COMPUTE_MAX_STACK_AND_LOCAL_FROM_FRAMES": "iWyBcsx",
+      "COMPUTE_INSERTED_FRAMES": "EBhfiSN",
+      "COMPUTE_ALL_FRAMES": "fpcUJeD",
+      "NA": "DPJLyqK",
+      "STACK_SIZE_DELTA": "ouUzLwB",
+      "symbolTable": "BCmcrbn",
+      "accessFlags": "yPsXrbn",
+      "nameIndex": "bqWoEMy",
+      "name": "NKHRdke",
+      "descriptorIndex": "zgmWpiO",
+      "descriptor": "FAZyFzn",
+      "maxStack": "YOhlZmI",
+      "maxLocals": "dkxYHIB",
+      "code": "xZcGKMl",
+      "firstHandler": "kPRmjRd",
+      "lastHandler": "LzYOZuP",
+      "lineNumberTableLength": "HMJTrMO",
+      "lineNumberTable": "UjBIMNN",
+      "localVariableTableLength": "OVyeKch",
+      "localVariableTable": "FpCNmUX",
+      "localVariableTypeTableLength": "eHSLPPb",
+      "localVariableTypeTable": "obWbjzA",
+      "stackMapTableNumberOfEntries": "KmTBExo",
+      "stackMapTableEntries": "BrGopGP",
+      "lastCodeRuntimeVisibleTypeAnnotation": "UjBIMNN",
+      "lastCodeRuntimeInvisibleTypeAnnotation": "FpCNmUX",
+      "firstCodeAttribute": "LzYOZuP",
+      "numberOfExceptions": "oqhdRuf",
+      "exceptionIndexTable": "qsbwzLe",
+      "signatureIndex": "kMoTTAd",
+      "lastRuntimeVisibleAnnotation": "LzYOZuP",
+      "lastRuntimeInvisibleAnnotation": "BCmcrbn",
+      "visibleAnnotableParameterCount": "HrSpxIz",
+      "lastRuntimeVisibleParameterAnnotations": "gWjrZHr",
+      "invisibleAnnotableParameterCount": "kmmpcbJ",
+      "lastRuntimeInvisibleParameterAnnotations": "kPRmjRd",
+      "lastRuntimeVisibleTypeAnnotation": "SJseNMa",
+      "lastRuntimeInvisibleTypeAnnotation": "xZcGKMl",
+      "defaultValue": "XkTqykZ",
+      "parametersCount": "SzAsCmW",
+      "parameters": "kcVZOtm",
+      "firstAttribute": "kPRmjRd",
+      "compute": "uJAIuWE",
+      "firstBasicBlock": "obWbjzA",
+      "lastBasicBlock": "BrGopGP",
+      "currentBasicBlock": "XkTqykZ",
+      "relativeStackSize": "zPJyYVq",
+      "maxRelativeStackSize": "nkPNLnQ",
+      "currentLocals": "lNOUXzr",
+      "previousFrameOffset": "yVZTLUa",
+      "previousFrame": "UjKiIsE",
+      "currentFrame": "xQLdsTd",
+      "hasSubroutines": "GocZOvI",
+      "hasAsmInstructions": "KjohKIB",
+      "lastBytecodeOffset": "ieqgRUK",
+      "sourceOffset": "MpzydXt",
+      "sourceLength": "VcHkSgf"
+    },
+    "methods": {
+      "hasFrames()Z": "hwmsVMb",
+      "hasAsmInstructions()Z": "gbFXWyT",
+      "visitParameter(Ljava/lang/String;I)V": "UjBIMNN",
+      "visitAnnotationDefault()Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotableParameterCount(IZ)V": "MoiEanH",
+      "visitParameterAnnotation(ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitCode()V": "wuMPZig",
+      "visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V": "gWjrZHr",
+      "visitInsn(I)V": "xZcGKMl",
+      "visitIntInsn(II)V": "WJMXEpy",
+      "visitVarInsn(II)V": "EOAkdeh",
+      "visitTypeInsn(ILjava/lang/String;)V": "gWjrZHr",
+      "visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "visitFieldInsn",
+      "visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V": "kPRmjRd",
+      "visitInvokeDynamicInsn(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V": "visitInvokeDynamicInsn",
+      "visitJumpInsn(ILorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLabel(Lorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitLdcInsn(Ljava/lang/Object;)V": "gWjrZHr",
+      "visitIincInsn(II)V": "fyKGmzx",
+      "visitTableSwitchInsn(IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLookupSwitchInsn(Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitSwitchInsn(Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitMultiANewArrayInsn(Ljava/lang/String;I)V": "gWjrZHr",
+      "visitInsnAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "kPRmjRd",
+      "visitTryCatchBlock(Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Ljava/lang/String;)V": "gWjrZHr",
+      "visitTryCatchAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "LzYOZuP",
+      "visitLocalVariable(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V": "gWjrZHr",
+      "visitLocalVariableAnnotation(ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;[ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitLineNumber(ILorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitMaxs(II)V": "visitMaxs",
+      "computeAllFrames()V": "zvtPQjY",
+      "computeMaxStackAndLocal()V": "ulWRDdg",
+      "visitEnd()V": "visitEnd",
+      "addSuccessorToCurrentBasicBlock(ILorg/objectweb/asm/Label;)V": "LzYOZuP",
+      "endCurrentBasicBlockWithNoSuccessor()V": "ckjYFLe",
+      "visitFrameStart(III)I": "XkTqykZ",
+      "visitAbstractType(II)V": "nmuYmMD",
+      "visitFrameEnd()V": "hsdONRV",
+      "putFrame()V": "mfcEkmW",
+      "putAbstractTypes(II)V": "wWVPvdZ",
+      "putFrameType(Ljava/lang/Object;)V": "obWbjzA",
+      "canCopyMethodAttributes(Lorg/objectweb/asm/ClassReader;ZZIII)Z": "gWjrZHr",
+      "setMethodAttributesSource(II)V": "rbNGnZf",
+      "computeMethodInfoSize()I": "uFpWUYb",
+      "putMethodInfo(Lorg/objectweb/asm/ByteVector;)V": "kPRmjRd",
+      "collectAttributePrototypes(Lorg/objectweb/asm/Attribute$Set;)V": "kPRmjRd"
     }
   },
   "net/minecraft/inventory/InventoryCraftResult": {
@@ -41344,6 +43259,36 @@
       "canFit(II)Z": "SJseNMa"
     }
   },
+  "org/objectweb/asm/signature/SignatureWriter": {
+    "actual": "DCRprhV",
+    "fields": {
+      "stringBuilder": "gWjrZHr",
+      "hasFormals": "oyjBNLz",
+      "hasParameters": "ARNmZvl",
+      "argumentStack": "eIeDPXz"
+    },
+    "methods": {
+      "visitFormalTypeParameter(Ljava/lang/String;)V": "visitFormalTypeParameter",
+      "visitClassBound()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitClassBound",
+      "visitInterfaceBound()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitInterfaceBound",
+      "visitSuperclass()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitSuperclass",
+      "visitInterface()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitInterface",
+      "visitParameterType()Lorg/objectweb/asm/signature/SignatureVisitor;": "gWjrZHr",
+      "visitReturnType()Lorg/objectweb/asm/signature/SignatureVisitor;": "kPRmjRd",
+      "visitExceptionType()Lorg/objectweb/asm/signature/SignatureVisitor;": "LzYOZuP",
+      "visitBaseType(C)V": "visitBaseType",
+      "visitTypeVariable(Ljava/lang/String;)V": "visitTypeVariable",
+      "visitArrayType()Lorg/objectweb/asm/signature/SignatureVisitor;": "visitArrayType",
+      "visitClassType(Ljava/lang/String;)V": "visitClassType",
+      "visitInnerClassType(Ljava/lang/String;)V": "visitInnerClassType",
+      "visitTypeArgument()V": "visitTypeArgument",
+      "visitTypeArgument(C)Lorg/objectweb/asm/signature/SignatureVisitor;": "visitTypeArgument",
+      "visitEnd()V": "visitEnd",
+      "toString()Ljava/lang/String;": "toString",
+      "endFormals()V": "NfiftiW",
+      "endArguments()V": "zMvuHSQ"
+    }
+  },
   "net/optifine/entity/model/ModelAdapterShulker": {
     "actual": "PELsXVM",
     "fields": {},
@@ -41719,6 +43664,17 @@
       "getFlowerPotData()I": "kXxqLnO"
     }
   },
+  "org/objectweb/asm/Edge": {
+    "actual": "mfxNAWd",
+    "fields": {
+      "JUMP": "msyXNgi",
+      "EXCEPTION": "oFhisXL",
+      "info": "nYvtBUv",
+      "successor": "gWjrZHr",
+      "nextEdge": "gWjrZHr"
+    },
+    "methods": {}
+  },
   "net/minecraft/client/particle/ParticleFallingDust": {
     "actual": "dTNCpSa",
     "fields": {
@@ -41728,6 +43684,17 @@
     "methods": {
       "renderParticle(Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/entity/Entity;FFFFFF)V": "gWjrZHr",
       "onUpdate()V": "LzYOZuP"
+    }
+  },
+  "org/objectweb/asm/tree/LdcInsnNode": {
+    "actual": "cVstITn",
+    "fields": {
+      "cst": "HnZskzl"
+    },
+    "methods": {
+      "getType()I": "JyFkRyh",
+      "accept(Lorg/objectweb/asm/MethodVisitor;)V": "gWjrZHr",
+      "clone(Ljava/util/Map;)Lorg/objectweb/asm/tree/AbstractInsnNode;": "gWjrZHr"
     }
   },
   "net/minecraft/network/play/server/SPacketUseBed": {
@@ -41877,6 +43844,33 @@
       "$SwitchMap$net$minecraft$client$renderer$block$model$ItemCameraTransforms$TransformType": "cTdqHIu"
     },
     "methods": {}
+  },
+  "org/objectweb/asm/AnnotationWriter": {
+    "actual": "zAyPzHh",
+    "fields": {
+      "symbolTable": "gWjrZHr",
+      "useNamedValues": "hjsMpBq",
+      "annotation": "gWjrZHr",
+      "numElementValuePairsOffset": "REeltsX",
+      "numElementValuePairs": "AAiyoQt",
+      "previousAnnotation": "gWjrZHr",
+      "nextAnnotation": "kPRmjRd"
+    },
+    "methods": {
+      "create(Lorg/objectweb/asm/SymbolTable;Ljava/lang/String;Lorg/objectweb/asm/AnnotationWriter;)Lorg/objectweb/asm/AnnotationWriter;": "gWjrZHr",
+      "create(Lorg/objectweb/asm/SymbolTable;ILorg/objectweb/asm/TypePath;Ljava/lang/String;Lorg/objectweb/asm/AnnotationWriter;)Lorg/objectweb/asm/AnnotationWriter;": "gWjrZHr",
+      "visit(Ljava/lang/String;Ljava/lang/Object;)V": "LzYOZuP",
+      "visitEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitArray(Ljava/lang/String;)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitEnd()V": "visitEnd",
+      "computeAnnotationsSize(Ljava/lang/String;)I": "uVbIQqE",
+      "computeAnnotationsSize(Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;)I": "gWjrZHr",
+      "putAnnotations(ILorg/objectweb/asm/ByteVector;)V": "gWjrZHr",
+      "putAnnotations(Lorg/objectweb/asm/SymbolTable;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/AnnotationWriter;Lorg/objectweb/asm/ByteVector;)V": "gWjrZHr",
+      "computeParameterAnnotationsSize(Ljava/lang/String;[Lorg/objectweb/asm/AnnotationWriter;I)I": "gWjrZHr",
+      "putParameterAnnotations(I[Lorg/objectweb/asm/AnnotationWriter;ILorg/objectweb/asm/ByteVector;)V": "gWjrZHr"
+    }
   },
   "net/minecraft/client/renderer/ThreadDownloadImageData": {
     "actual": "jwnPVhO",
@@ -43276,11 +45270,6 @@
       "call()Ljava/lang/String;": "rOpQWhg"
     }
   },
-  "net/minecraft/client/main/AllTrustedSSLSocketFactory": {
-    "actual": "nIOQWsD",
-    "fields": {},
-    "methods": {}
-  },
   "net/minecraft/client/gui/achievement/GuiStats$StatsItem$1": {
     "actual": "lNOUXzr",
     "fields": {
@@ -43564,6 +45553,26 @@
       "this$0": "kPRmjRd"
     },
     "methods": {}
+  },
+  "org/objectweb/asm/Handle": {
+    "actual": "MGdfeDd",
+    "fields": {
+      "tag": "FqcGltU",
+      "owner": "QdxPACJ",
+      "name": "vxOVAej",
+      "descriptor": "XDBAFkl",
+      "isInterface": "BcpzeNY"
+    },
+    "methods": {
+      "getTag()I": "ANJMBNE",
+      "getOwner()Ljava/lang/String;": "LbzMTQY",
+      "getName()Ljava/lang/String;": "getName",
+      "getDesc()Ljava/lang/String;": "xzEUKQb",
+      "isInterface()Z": "oovFoyC",
+      "equals(Ljava/lang/Object;)Z": "equals",
+      "hashCode()I": "hashCode",
+      "toString()Ljava/lang/String;": "toString"
+    }
   },
   "net/minecraft/client/renderer/entity/RenderItemFrame": {
     "actual": "cfaWkgx",
@@ -45155,6 +47164,47 @@
       "getEntityTexture(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;": "gWjrZHr"
     }
   },
+  "org/objectweb/asm/MethodVisitor": {
+    "actual": "clhsOOS",
+    "fields": {
+      "REQUIRES_ASM5": "VOFCHgi",
+      "api": "bcPcHzS",
+      "mv": "kPRmjRd"
+    },
+    "methods": {
+      "visitParameter(Ljava/lang/String;I)V": "UjBIMNN",
+      "visitAnnotationDefault()Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAnnotableParameterCount(IZ)V": "MoiEanH",
+      "visitParameterAnnotation(ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitCode()V": "wuMPZig",
+      "visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V": "gWjrZHr",
+      "visitInsn(I)V": "xZcGKMl",
+      "visitIntInsn(II)V": "WJMXEpy",
+      "visitVarInsn(II)V": "EOAkdeh",
+      "visitTypeInsn(ILjava/lang/String;)V": "gWjrZHr",
+      "visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "visitFieldInsn",
+      "visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V": "kPRmjRd",
+      "visitInvokeDynamicInsn(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V": "visitInvokeDynamicInsn",
+      "visitJumpInsn(ILorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLabel(Lorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitLdcInsn(Ljava/lang/Object;)V": "gWjrZHr",
+      "visitIincInsn(II)V": "fyKGmzx",
+      "visitTableSwitchInsn(IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitLookupSwitchInsn(Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V": "gWjrZHr",
+      "visitMultiANewArrayInsn(Ljava/lang/String;I)V": "gWjrZHr",
+      "visitInsnAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "kPRmjRd",
+      "visitTryCatchBlock(Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Ljava/lang/String;)V": "gWjrZHr",
+      "visitTryCatchAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "LzYOZuP",
+      "visitLocalVariable(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V": "gWjrZHr",
+      "visitLocalVariableAnnotation(ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;[ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitLineNumber(ILorg/objectweb/asm/Label;)V": "kPRmjRd",
+      "visitMaxs(II)V": "visitMaxs",
+      "visitEnd()V": "visitEnd"
+    }
+  },
   "net/minecraft/client/renderer/entity/RenderArmorStand": {
     "actual": "FDCLPyh",
     "fields": {
@@ -46539,6 +48589,79 @@
     "fields": {},
     "methods": {}
   },
+  "org/objectweb/asm/ClassWriter": {
+    "actual": "DHHHFRB",
+    "fields": {
+      "COMPUTE_MAXS": "HQZhztH",
+      "COMPUTE_FRAMES": "IdCtvaU",
+      "version": "dIOAKVg",
+      "symbolTable": "kPRmjRd",
+      "accessFlags": "cLHfQhb",
+      "thisClass": "vOjhiHJ",
+      "superClass": "ItFTCYB",
+      "interfaceCount": "SOZBdhJ",
+      "interfaces": "cbNsAIL",
+      "firstField": "gWjrZHr",
+      "lastField": "kPRmjRd",
+      "firstMethod": "gWjrZHr",
+      "lastMethod": "kPRmjRd",
+      "numberOfInnerClasses": "gXNQvsI",
+      "innerClasses": "kPRmjRd",
+      "enclosingClassIndex": "UzpTGGE",
+      "enclosingMethodIndex": "cXYKyGW",
+      "signatureIndex": "HfuAFpi",
+      "sourceFileIndex": "AtTRSwl",
+      "debugExtension": "LzYOZuP",
+      "lastRuntimeVisibleAnnotation": "LzYOZuP",
+      "lastRuntimeInvisibleAnnotation": "BCmcrbn",
+      "lastRuntimeVisibleTypeAnnotation": "SJseNMa",
+      "lastRuntimeInvisibleTypeAnnotation": "xZcGKMl",
+      "moduleWriter": "gWjrZHr",
+      "nestHostClassIndex": "VMjiOtn",
+      "numberOfNestMemberClasses": "qgykWxA",
+      "nestMemberClasses": "BCmcrbn",
+      "numberOfPermittedSubclasses": "RJOmsOu",
+      "permittedSubclasses": "SJseNMa",
+      "firstRecordComponent": "gWjrZHr",
+      "lastRecordComponent": "kPRmjRd",
+      "firstAttribute": "kPRmjRd",
+      "compute": "jpZOPaI"
+    },
+    "methods": {
+      "visit(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V": "gWjrZHr",
+      "visitSource(Ljava/lang/String;Ljava/lang/String;)V": "BCmcrbn",
+      "visitModule(Ljava/lang/String;ILjava/lang/String;)Lorg/objectweb/asm/ModuleVisitor;": "gWjrZHr",
+      "visitNestHost(Ljava/lang/String;)V": "wOfoeCE",
+      "visitOuterClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": "kPRmjRd",
+      "visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;": "gWjrZHr",
+      "visitAttribute(Lorg/objectweb/asm/Attribute;)V": "LzYOZuP",
+      "visitNestMember(Ljava/lang/String;)V": "scWGGoF",
+      "visitPermittedSubclass(Ljava/lang/String;)V": "EhSNmpn",
+      "visitInnerClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V": "gWjrZHr",
+      "visitRecordComponent(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/RecordComponentVisitor;": "gWjrZHr",
+      "visitField(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/objectweb/asm/FieldVisitor;": "gWjrZHr",
+      "visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;": "visitMethod",
+      "visitEnd()V": "visitEnd",
+      "toByteArray()[B": "obWbjzA",
+      "replaceAsmInstructions([BZ)[B": "gWjrZHr",
+      "getAttributePrototypes()[Lorg/objectweb/asm/Attribute;": "kPRmjRd",
+      "newConst(Ljava/lang/Object;)I": "SJseNMa",
+      "newUTF8(Ljava/lang/String;)I": "RrKclpt",
+      "newClass(Ljava/lang/String;)I": "FHURYzE",
+      "newMethodType(Ljava/lang/String;)I": "caCwAvT",
+      "newModule(Ljava/lang/String;)I": "cFbmYDU",
+      "newPackage(Ljava/lang/String;)I": "Jbqngxu",
+      "newHandle(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I": "gWjrZHr",
+      "newConstantDynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)I": "gWjrZHr",
+      "newInvokeDynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)I": "kPRmjRd",
+      "newField(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I": "gWjrZHr",
+      "newMethod(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I": "gWjrZHr",
+      "newNameType(Ljava/lang/String;Ljava/lang/String;)I": "LzYOZuP",
+      "getCommonSuperClass(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": "getCommonSuperClass",
+      "getClassLoader()Ljava/lang/ClassLoader;": "gWjrZHr"
+    }
+  },
   "net/optifine/shaders/IteratorRenderChunks": {
     "actual": "ATTEKmp",
     "fields": {
@@ -47406,10 +49529,8 @@
     }
   },
   "net/optifine/util/NativeMemory": {
-    "actual": "STpreRV",
-    "fields": {
-      "BUFFER_POOL": "OpPfuWW"
-    },
+    "actual": "TiKsErs",
+    "fields": {},
     "methods": {}
   },
   "net/minecraft/client/resources/DefaultResourcePack": {
@@ -47438,62 +49559,39 @@
     }
   },
   "net/minecraft/cristalix/nt/ProcessorAccess": {
-    "actual": "ZjJYbkY",
+    "actual": "cwUIYmL",
     "fields": {},
-    "methods": {}
+    "methods": {
+      "readProcessLine(Ljava/lang/String;)Ljava/lang/String;": "wWVPvdZ"
+    }
   },
   "net/minecraft/cristalix/intrinsics/MouseIntrinsics": {
-    "actual": "TiKsErs",
+    "actual": "kbzUPXS",
     "fields": {},
     "methods": {}
   },
   "net/minecraft/cristalix/intrinsics/KeyboardIntrinsics": {
-    "actual": "ypJQaKU",
+    "actual": "ZgWHvGh",
     "fields": {},
     "methods": {}
   },
   "net/diamondden/util/DevUtil": {
-    "actual": "qbxCsPU",
+    "actual": "BKYWekh",
     "fields": {},
-    "methods": {}
+    "methods": {
+      "isStaff()Z": "jTSZHwx",
+      "isCameraMan()Z": "LbzMTQY"
+    }
   },
   "net/minecraft/cristalix/intrinsics/DisplayIntrinsics": {
-    "actual": "MGdfeDd",
-    "fields": {},
+    "actual": "ivcZWjo",
+    "fields": {
+      "IMPLEMENTATION": "gWjrZHr"
+    },
     "methods": {}
   },
   "net/minecraft/cristalix/intrinsics/EXTIntrinsics": {
-    "actual": "hRdcvmE",
-    "fields": {
-      "BIND_FRAME_BUFFER_PTR": "hBYGSzy"
-    },
-    "methods": {}
-  },
-  "dev/xdark/ssbus/HandleRegisteredListener": {
-    "actual": "TmBdxGQ",
-    "fields": {},
-    "methods": {
-      "unregister()V": "remove"
-    }
-  },
-  "net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher": {
-    "actual": "cwUIYmL",
-    "fields": {
-      "world": "gWjrZHr",
-      "entity": "apeJvbC",
-      "entityYaw": "jTSZHwx",
-      "entityPitch": "wHmehoq",
-      "cameraHitResult": "kPRmjRd",
-      "tileEntityRendered": "euzCBJD",
-      "minecraft": "DohsBSE"
-    },
-    "methods": {
-      "setWorld(Lnet/minecraft/world/World;)V": "gWjrZHr",
-      "getFontRenderer()Lnet/minecraft/client/gui/FontRenderer;": "toString"
-    }
-  },
-  "net/minecraft/cristalix/intrinsics/OpenGlIntrinsics": {
-    "actual": "kbzUPXS",
+    "actual": "HCzZMDI",
     "fields": {},
     "methods": {}
   },
@@ -47751,18 +49849,6 @@
       "getKeyBindPersonalization()Lnet/minecraft/client/settings/KeyBinding;": "pmpUnlO"
     }
   },
-  "net/minecraft/cristalix/intrinsics/ARBIntrinsics": {
-    "actual": "ZgWHvGh",
-    "fields": {},
-    "methods": {}
-  },
-  "net/minecraft/client/multiplayer/ChunkProviderClient$1": {
-    "actual": "OOGknVz",
-    "fields": {
-      "this$0": "gWjrZHr"
-    },
-    "methods": {}
-  },
   "net/minecraft/client/resources/IResourcePack": {
     "actual": "rKOcJJg",
     "fields": {},
@@ -47805,55 +49891,8 @@
       "loadBlockDefinition(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/renderer/block/model/ModelBlockDefinition;": "kPRmjRd"
     }
   },
-  "net/minecraft/util/ITickable": {
-    "actual": "kZCfgDK",
-    "fields": {},
-    "methods": {}
-  },
-  "net/optifine/items/CustomItems": {
-    "actual": "ivcZWjo",
-    "fields": {
-      "mapPotionDamages": "gWjrZHr"
-    },
-    "methods": {}
-  },
-  "net/optifine/config/NbtTagValue": {
-    "actual": "HCzZMDI",
-    "fields": {
-      "PATTERN_HEX_COLOR": "ALozbsv"
-    },
-    "methods": {
-      "getNbtString(Lnet/minecraft/nbt/NBTBase;I)Ljava/lang/String;": "gWjrZHr"
-    }
-  },
-  "dev/xdark/ssbus/Util": {
-    "actual": "pagsXQm",
-    "fields": {},
-    "methods": {}
-  },
-  "net/optifine/items/CustomItemProperties": {
-    "actual": "VRghlkb",
-    "fields": {},
-    "methods": {
-      "isValid(Ljava/lang/String;)Z": "equals",
-      "toString()Ljava/lang/String;": "getName"
-    }
-  },
-  "net/minecraft/tileentity/TileEntity": {
-    "actual": "uNKbIbk",
-    "fields": {
-      "x": "VkgMeck",
-      "renderer": "UePMOHf",
-      "customBoundingBox": "iCzNuIR"
-    },
-    "methods": {
-      "getWorld()Lnet/minecraft/world/World;": "gWjrZHr",
-      "getBlockMetadata()I": "uNWUDyK",
-      "getPos()Lnet/minecraft/util/math/BlockPos;": "kPRmjRd"
-    }
-  },
   "net/diamondden/profiler/Profiler": {
-    "actual": "DLBFnRM",
+    "actual": "ledSvOo",
     "fields": {},
     "methods": {}
   },

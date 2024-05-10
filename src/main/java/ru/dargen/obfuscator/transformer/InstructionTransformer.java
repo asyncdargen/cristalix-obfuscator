@@ -3,8 +3,14 @@ package ru.dargen.obfuscator.transformer;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
 import org.objectweb.asm.Handle;
+import org.objectweb.asm.Type;
 import org.objectweb.asm.tree.*;
 import ru.dargen.obfuscator.mapping.Mappings;
+
+import javax.lang.model.element.TypeElement;
+import java.util.Arrays;
+import java.util.PrimitiveIterator;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 public class InstructionTransformer {
@@ -53,17 +59,10 @@ public class InstructionTransformer {
     private void transformInvokeDynamic(InvokeDynamicInsnNode node) {
         node.desc = mappings.mapClassNames(node.desc);
 
-        val bsm = node.bsm;
-        val mapping = mappings.getMapping(bsm.getOwner());
-        if (mapping != null) {
-            node.bsm = new Handle(
-                    bsm.getTag(),
-                    mapping.getActual(),
-                    mapping.mapMethod(bsm.getName(), bsm.getDesc()),
-                    mappings.mapClassNames(bsm.getDesc()),
-                    bsm.isInterface()
-            );
-        }
+        node.bsmArgs = Arrays.stream(node.bsmArgs)
+                .map(arg -> arg instanceof Type ? transformType0((Type) arg) : arg instanceof Handle ? transformBSM((Handle) arg) : arg)
+                .toArray();
+        node.bsm = transformBSM(node.bsm);
     }
 
     private void transformNewArray(MultiANewArrayInsnNode node) {
@@ -72,6 +71,21 @@ public class InstructionTransformer {
 
     private void transformType(TypeInsnNode node) {
         node.desc = mappings.mapClassName(node.desc);
+    }
+
+    private Handle transformBSM(Handle bsm) {
+        val mapping = mappings.getMapping(bsm.getOwner());
+        return  new Handle(
+                bsm.getTag(),
+                mappings.mapClassNames(bsm.getOwner()),
+                mapping != null ? mapping.mapMethod(bsm.getName(), bsm.getDesc()) : bsm.getName(),
+                mappings.mapClassNames(bsm.getDesc()),
+                bsm.isInterface()
+        );
+    }
+
+    private Type transformType0(Type type) {
+        return Type.getMethodType(mappings.mapClassNames(type.getDescriptor()));
     }
 
 }
